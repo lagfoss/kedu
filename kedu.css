@@ -1,6 +1,6 @@
-logo{
-  height: 20px;
-  width: 100px;
+.logo{
+  position: absolute;
+  margin-top: -8px;
 }
 
 
@@ -23,7 +23,7 @@ nav ul li a {
   color: #216394;
   font-size: 18px;
   width: 100%;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 /*menu aktiv farve*/
