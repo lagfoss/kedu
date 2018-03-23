@@ -1,4 +1,23 @@
-*nav{
+
+/*menu side om side*/
+nav ul li {
+  display: inline-block;
+  text-align: center
+}
+
+/*menustyling*/
+nav ul li a {
   text-align: center;
-  color: green;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  padding: 20px;
+  color: #216394;
+  font-size: 18px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/*menu aktiv farve*/
+.active {
+  color: #f78c29;
 }
