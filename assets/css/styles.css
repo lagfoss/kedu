@@ -1,3 +1,17 @@
+/*Login-page*/
+section.login{
+  background-image: url("assets/images/background.jpg");
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+}
+section.login button{
+  text-align: center;
+  font-size: 20px;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #216393;
+}
 .logo{
   position: absolute;
   margin-top: -8px;
