@@ -74,3 +74,44 @@ nav ul li a {
 .active {
   color: #f78c29;
 }
+
+.columns {
+  display: flex;
+  flex-direction: row;; /* Stackes the articles horizontal */
+}
+
+
+.column {
+  flex: 2;
+}
+
+.main-column {
+  flex: 2;
+}
+
+.article {
+ background: #226494;
+ color: #666;
+ display: flex;
+ flex: 1;
+ flex-direction: column;
+ flex-basis: auto;
+ margin: 10px;
+}
+
+.article-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.article-content {
+  flex: 1; /* This will make the content fill up the remaining space,
+  and thus push the information bar at the bottom */
+  margin-left: : 10px;
+}
+
+.article img {
+  height: 500px;
+  width: 700px;
+}
