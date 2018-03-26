@@ -1,17 +1,48 @@
 /*Login-page*/
+body.login{
+  background-image: url("../images/background.jpg");
+  background-size: 100%;
+}
+
 section.login{
-  background-image: url("assets/images/background.jpg");
+  float: left;
+  width: 40%;
   color: #ffffff;
   font-family: 'Lato', sans-serif;
 }
+
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+
 section.login button{
   text-align: center;
   font-size: 20px;
   display: inline-block;
   margin: 4px 2px;
+  padding: 5px;
   cursor: pointer;
-  background-color: #216393;
+  background-color: #044C7F;
+  color: #ffffff;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
 }
+
+button:hover {
+  opacity: 0.9;
+}
+
+.login{
+  padding: 20px;
+}
+
 .logo{
   position: absolute;
   margin-top: -8px;
@@ -19,6 +50,9 @@ section.login button{
 
 header{
   text-align: center;
+  width: 100%;
+  background-color: #ffffff;
+  position: fixed;
 }
 
 /*menu side om side*/
