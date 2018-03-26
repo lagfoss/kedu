@@ -9,6 +9,9 @@ section.login{
   width: 40%;
   color: #ffffff;
   font-family: 'Lato', sans-serif;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
 }
 
 input[type=email], input[type=password] {
@@ -37,10 +40,6 @@ section.login button{
 
 button:hover {
   opacity: 0.9;
-}
-
-.login{
-  padding: 20px;
 }
 
 .logo{
