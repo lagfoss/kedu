@@ -51,10 +51,6 @@ button:hover {
 
 /*Header med logo, menu og profil*/
 
-.num1{width: 25%;}
-.num2{width: 50%; align-self: center;;}
-.num3{width: 25%; align-self: flex-start;}
-
 .logo{
   float: left;
   margin: 10px;
@@ -63,38 +59,56 @@ button:hover {
 header{
   background-color: #ffffff;
   position: fixed;
+  width: 100%;
   right: 0;
   left: 0;
   top: 0;
+  box-shadow: 20px;
 }
-header.flex-header{
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
   display: flex;
-  align-items: center;
-}
-
-/*menu side om side*/
-
-.flex-menu{
-
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
   border: 10px;
   border-color: #044C7F;
   border-radius: 5px;
 }
 
-.menu {
-  display: inline-block;
-  text-align: center;
-  font-family: 'Lato', sans-serif;
-  text-decoration: none;
-  color: #044C7F;
-  font-size: 20px;
-  padding: 20px;
+.top_menu ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+.top_menu li {
+    float: left;
+    padding: 10px 25px 0 0;
+}
+
+ .top_menu li a {
+    display: block;
+    color: #044C7F;
+    text-align: center;
+    text-decoration: none;
+}
+
+.top_menu li a:hover {
+  color: #00a19b;
 }
 
 .profil{
   float: right;
-  font-size: 20px;
-  padding: 20px;
+  font-size: 30px;
+  margin: 0;
+  padding-right: 20px;
   color: #044C7F;
 }
 
