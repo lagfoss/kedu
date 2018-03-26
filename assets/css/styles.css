@@ -90,7 +90,7 @@ nav ul li a {
 
 .article {
  background: #226494;
- color: #666;
+ color: white;
  display: flex;
  flex: 1;
  flex-direction: column;
