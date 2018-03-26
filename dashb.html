@@ -14,26 +14,39 @@
   <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+  <script defer src="assets/js/fontawesome-all.js"></script>
 </head>
 
 <body>
 
-  <div class="logo">
-    <img src="assets/images/kedulogo.jpg" alt="logo">
-  </div>
-
-  <Header>
-
-    <nav>
+  <header>
+    <div class="logo">
+      <a href="dashb.html"><img src="assets/images/kedulogo.png" alt="logo" height="36px"></a>
+    </div>
+    <nav class="top_menu">
       <ul>
         <li><a href="dashb.html" class="active">Dashboard</a></li>
         <li><a href="lplans.html">Lesson Plans</a></li>
         <li><a href="commu.html">Community</a></li>
-        <li><a href="lak.html">Learn KUBO</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Learn KUBO</a>
+          <div class="dropdown-content">
+            <a href="lak.html">Learn about KUBO</a>
+            <a href="lbv.html">Learn by video</a>
+            <a href="manuals.html">Manuals</a>
+            <a href="qaa.html">Q & A</a>
+          </div>
+        </li>
       </ul>
+      <div class="search">
+        <input type="search" placeholder="Search..">
+        <button type="search"><span class="fas fa-search"></span></button>
+      </div>
+      <div class="profil">
+        <button type="profil"><span class="far fa-user"></span></button>
+      </div>
     </nav>
-
-  </Header>
+  </header>
 
 
 </body>
@@ -58,7 +71,7 @@
           A thorough introduction to TagTile coding and crucial 21st-century
           skills like communication, collaboration, creativity and
           critical thinking
-          
+
           <ul>
             <li>Normal Lesson</li>
             <li>5 Lessons, 11.5 Hours</li>
