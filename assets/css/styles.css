@@ -4,14 +4,21 @@ body.login{
   background-size: 100%;
 }
 
+body{
+  margin: 0;
+}
+
 section.login{
   float: left;
   width: 40%;
-  color: #ffffff;
+  color: #044C7F;
   font-family: 'Lato', sans-serif;
+  margin-top: 200px;
+  margin-left: 100px;
   padding: 20px;
   background-color: #ffffff;
   border-radius: 5px;
+  box-shadow: 2px 2px;
 }
 
 input[type=email], input[type=password] {
@@ -42,31 +49,51 @@ button:hover {
   opacity: 0.9;
 }
 
+/*Header med logo, menu og profil*/
+
+.num1{width: 25%;}
+.num2{width: 50%; align-self: flex-start;}
+.num3{width: 25%; align-self: flex-start;}
+
 .logo{
-  position: absolute;
-  margin-top: -8px;
+  float: left;
+  margin: 10px;
 }
 
 header{
-  text-align: center;
+  background-color: #ffffff;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+header.flex-header{
+  display: flex;
+  align-items: center;
 }
 
 /*menu side om side*/
-nav ul li {
-  display: inline-block;
-  text-align: center;
+
+.flex-menu{
+  justify-content: center;
+  border: 10px;
+  border-color: #044C7F;
+  border-radius: 5px;
 }
 
-/*menustyling*/
-nav ul li a {
+.menu {
+  display: inline-block;
   text-align: center;
   font-family: 'Lato', sans-serif;
   text-decoration: none;
+  color: #044C7F;
+  font-size: 20px;
   padding: 20px;
-  color: #216394;
-  font-size: 18px;
-  width: 100%;
-  margin-top: 40px;
+}
+
+.profil{
+  height: 20px;
+  color: #044C7F;
 }
 
 /*menu aktiv farve*/
