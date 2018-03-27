@@ -230,6 +230,13 @@ input[type=search] {
       }
     }
 
+/*Community*/
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
 /*Manuals*/
 
 .manu {
