@@ -230,6 +230,29 @@ input[type=search] {
       }
     }
 
+/*Lesson Plan*/
+
+.column.middle img {
+  height: 30%;
+  width: 30%;
+  float: left;
+  margin-right: 10px;
+}
+
+.tag {
+  background-color: #044C7F;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 5px 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
 /*Community*/
 
 .allB {
@@ -248,6 +271,11 @@ input[type=search] {
   margin: 10px 5px;
   cursor: pointer;
   border-radius: 5px;
+}
+
+.button4 {
+  float: right;
+  margin-right: 10px;
 }
 
 .column {
