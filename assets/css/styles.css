@@ -256,7 +256,7 @@ input[type=search] {
 
 .column.side {
   width: 15%;
-  min-height: 500px;
+  min-height: 450px;
 }
 
 .column.side h2 {
