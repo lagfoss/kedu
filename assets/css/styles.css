@@ -185,43 +185,43 @@ input[type=search] {
   border-radius: 5px;
 }
 
-.columns {
-  display: flex;
-  flex-direction: row;; /* Stackes the articles horizontal */
+/*Manuals*/
+
+.manu {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
 
-
-.column {
-  flex: 2;
+.manu:hover, .manu:focus {
+    background-color: #2980B9;
 }
 
-.main-column {
-  flex: 2;
+.dropmanu {
+    position: relative;
+    display: inline-block;
 }
 
-.article {
- background: #226494;
- color: white;
- display: flex;
- flex: 1;
- flex-direction: column;
- flex-basis: auto;
- margin: 10px;
+.dropmanu-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 
-.article-body {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
+.dropmanu-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
 
-.article-content {
-  flex: 1; /* This will make the content fill up the remaining space,
-  and thus push the information bar at the bottom */
-  margin-left: : 10px;
-}
+.dropmanu a:hover {background-color: #ddd}
 
-.article img {
-  height: 500px;
-  width: 700px;
-}
+.show {display:block;}
