@@ -321,7 +321,7 @@ article.manuals button{
   border-radius: 5px;
 }
 
-.manu:hover, .manu:focus {
+.manu:hover {
     opacity: 0.9;
 }
 
