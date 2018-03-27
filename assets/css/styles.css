@@ -4,7 +4,8 @@ body{
 }
 
 main {
-margin-top: 7%;
+  position: static;
+  margin-top: 5%;
 }
 
 /*Login-page*/
@@ -297,7 +298,7 @@ article.manuals button{
 }
 
 .dropmanu {
-    position: relative;
+    position: static;
     display: block;
 }
 
