@@ -2,6 +2,10 @@ body{
   margin: 0;
 }
 
+main {
+  
+}
+
 /*Login-page*/
 body.login{
   background-image: url("../images/background.jpg");
