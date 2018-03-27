@@ -4,13 +4,15 @@ body{
 }
 
 main {
-  
+
+
 }
 
 /*Login-page*/
 body.login{
   background-image: url("../images/background.jpg");
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 section.login{
@@ -216,6 +218,8 @@ input[type=search] {
 @media screen and (max-width:600px) {
     .column {
         width: 100%;
+      }
+    }
 
 /*Manuals*/
 
