@@ -232,27 +232,36 @@ input[type=search] {
 
 /*Manuals*/
 
-.manu {
-    background-color: #3498DB;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
+article.manuals{
+  position: absolute;
+  width: 30%;
+}
+
+article.manuals button{
+  text-align: center;
+  font-size: 20px;
+  display: inline-block;
+  margin: 4px 2px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: #044C7F;
+  color: #ffffff;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
 }
 
 .manu:hover, .manu:focus {
-    background-color: #2980B9;
+    opacity: 0.9;
 }
 
 .dropmanu {
     position: relative;
-    display: inline-block;
+    display: block;
 }
 
 .dropmanu-content {
     display: none;
-    position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
     overflow: auto;

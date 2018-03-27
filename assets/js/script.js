@@ -10,13 +10,13 @@ function getInfo() {
 /*Manuals*/
 
 function myFunction(a) {
-  a.parentNode.getElementsByClassName("dropdown-content")[0].classList.toggle("show");
+  a.parentNode.getElementsByClassName("dropmanu-content")[0].classList.toggle("show");
 }
 // Close the dropdown if the user clicks outside of it
 window.onclick = function(event) {
   if (!event.target.matches('.manu')) {
 
-    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var dropdowns = document.getElementsByClassName("dropmanu-content");
     var i;
     for (i = 0; i < dropdowns.length; i++) {
       var openDropdown = dropdowns[i];
