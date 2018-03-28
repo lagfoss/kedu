@@ -408,3 +408,18 @@ article.manuals button{
 .dropmanu a:hover {background-color: #ddd}
 
 .show {display:block;}
+
+/*Learn about KUBO*/
+
+.columnh2{
+  display: grid;
+  margin-left: 15%;
+  width: 70%;
+  border: solid 2px #044C7F;
+  border-radius: 5px;
+}
+
+.columnh2 h2{
+  font-size: large;
+  padding: 10px;
+}
