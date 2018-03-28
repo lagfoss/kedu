@@ -373,10 +373,21 @@ article.manuals button{
 
 .columnlak{
   display: grid;
-  margin-left: 10%;
+  margin-left: 15%;
   margin-top: 20px;
-  width: 80%;
+  width: 70%;
   border: solid 2px #044C7F;
   border-radius: 5px;
 }
 .columnlak h3{text-align: center;}
+
+/*Learn by video*/
+
+.columvideo{
+display: grid;
+margin-left: 10%;
+margin-top: 20px;
+width: 80%;
+border: solid 2px #044C7F;
+border-radius: 5px;
+}
