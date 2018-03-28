@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>KEDU - The Educational Community and Curriculum Platform</title>
+  <meta description=" Kedu er en....." />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+  <link rel="mask-icon" href="assets/images/favicon/safari-pinned-tab.svg" color="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+  <script defer src="assets/js/script.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+  <script defer src="assets/js/fontawesome-all.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="dashb.html"><img src="assets/images/kedulogo.png" alt="logo" height="36px"></a>
+    </div>
+    <nav class="top_menu">
+      <ul>
+        <li><a href="dashb.html">Dashboard</a></li>
+        <li><a href="lplans.html">Lesson Plans</a></li>
+        <li><a href="commu.html">Community</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Learn KUBO</a>
+          <div class="dropdown-content">
+            <a href="lak.html">Learn about KUBO</a>
+            <a href="lbv.html">Learn by video</a>
+            <a href="manuals.html">Manuals</a>
+            <a href="faq.html" class="active">faq</a>
+          </div>
+        </li>
+      </ul>
+      <div class="search">
+        <input type="search" placeholder="Search..">
+        <button type="search"><span class="fas fa-search"></span></button>
+      </div>
+      <div class="profil">
+        <button type="profil"><span class="far fa-user"></span></button>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <article class="manuals">
+    <h1>FAQ</h1>
+    <ul>
+    <li class="dropmanu">
+      <button onclick="myFunction(this)" class="manu"><span class="fas fa-angle-down">
+      </span>How Does KUBO work?</button>
+      <div id="myDropdownuk" class="dropmanu-content">
+        <p>KUBO works by running over TagTiles and reading the RFID microchips
+          embedded in them to perform actions like turning right, going straight,
+          reading functions, and executing loops.</p>
+      </div>
+    </li>
+    <li class="dropmanu">
+      <button onclick="myFunction(this)" class="manu"><span class="fas fa-angle-down"></span> Svenska</button>
+      <div id="myDropdownsv" class="dropmanu-content">
+        <a href="assets/pdf/snabbstartsguide.pdf" target="_blank"><span class="fas fa-cloud-download-alt"></span> Snabbstartsguide</a>
+        <a href="assets/pdf/lararmanual.pdf" target="_blank"><span class="fas fa-cloud-download-alt"></span> Lärarmanual</a>
+        <a href="assets/pdf/cheat_sheet_sv.pdf" target="_blank"><span class="fas fa-cloud-download-alt"></span> Cheat sheet</a>
+      </div>
+    </li>
+    <li class="dropmanu">
+      <button onclick="myFunction(this)" class="manu"><span class="fas fa-angle-down"></span> Dansk</button>
+      <div id="myDropdown" class="dropmanu-content">
+        <a href="assets/pdf/brugervejledning.pdf" target="_blank"><span class="fas fa-cloud-download-alt"></span> Brugervejledning</a>
+        <a href="assets/pdf/larervejledning.pdf" target="_blank"><span class="fas fa-cloud-download-alt"></span> Lærervejledning</a>
+        <a href="assets/pdf/cheat_sheet_dk.pdf" target="_blank"><span class="fas fa-cloud-download-alt"></span> Cheat sheet</a>
+      </div>
+    </li>
+    <li class="dropmanu">
+      <button onclick="myFunction(this)" class="manu"><span class="fas fa-angle-down"></span> Suomalainen</button>
+      <div id="myDropdown" class="dropmanu-content">
+        <a href="assets/pdf/pikaopas_kubon_kayttoon.pdf" target="_blank"><span class="fas fa-cloud-download-alt"></span> Pikaopas kubon käyttöön</a>
+        <a href="assets/pdf/opettajan_opas.pdf" target="_blank"><span class="fas fa-cloud-download-alt"></span> Opettajan Opas</a>
+        <a href="assets/pdf/cheat_sheet_fi.pdf" target="_blank"><span class="fas fa-cloud-download-alt"></span> Cheat sheet</a>
+      </div>
+    </li>
+    <li class="dropmanu">
+      <button onclick="myFunction(this)" class="manu"><span class="fas fa-angle-down"></span> Norsk</button>
+      <div id="myDropdown" class="dropmanu-content">
+        <a href="assets/pdf/hurtigstartsguide.pdf" target="_blank"><span class="fas fa-cloud-download-alt"></span> Hurtigstartsguide</a>
+        <a href="assets/pdf/larermanual.pdf" target="_blank"><span class="fas fa-cloud-download-alt"></span> Lærermanual</a>
+        <a href="assets/pdf/cheat_sheet_no.pdf" target="_blank"><span class="fas fa-cloud-download-alt"></span> Cheat sheet</a>
+      </div>
+    </li>
+    </ul>
+  </article>
+  </main>
+
+</body>
+
+</html>
