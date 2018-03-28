@@ -370,3 +370,13 @@ article.manuals button{
   font-size: large;
   padding: 10px;
 }
+
+.columnlak{
+  display: grid;
+  margin-left: 10%;
+  margin-top: 20px;
+  width: 80%;
+  border: solid 2px #044C7F;
+  border-radius: 5px;
+}
+.columnlak h3{text-align: center;}
