@@ -4,8 +4,13 @@ body{
 }
 
 main {
-
   margin-top: 7%;
+}
+
+main h1{
+  text-align: center;
+  font-size: xx-large;
+  color: #044C7F;
 }
 
 /*Login-page*/
@@ -305,6 +310,7 @@ article.manuals{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  text-align: center;
 }
 
 article.manuals button{
