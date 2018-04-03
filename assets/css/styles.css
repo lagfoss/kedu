@@ -206,22 +206,12 @@ input[type=search] {
 
 .column {
   float: left;
-<<<<<<< HEAD
-  width: 50%;
-  padding: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #044C7F;
-=======
   margin-left: 120px;
   margin-top: 90px;
   border-style: solid;
   border-width: 8px;
   border-color: #ffffff;
   border-radius: 4px;
->>>>>>> 4d9e25e7f4fd2a8c210fc50f23a3e4f5c2dd6ce4
   background-color: #ffffff;
 
 
