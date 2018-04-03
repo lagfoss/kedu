@@ -1,7 +1,7 @@
 body{
   margin: 0;
   font-family: 'Lato', sans-serif;
-  background-color: #e0dede;
+  background-color: #f2f2f2;
 }
 
 main {
@@ -95,7 +95,7 @@ nav{
     /*border-width: 2px;*/
     /*border-color: #044C7F;*/
     /*border-radius: 5px;*/
-    margin-left: 290px;
+    margin-left: 260px;
 }
 
 .top_menu li {
@@ -113,7 +113,6 @@ nav{
 
 li a.active, .dropbtn {
   color: #f78c29;
-  font-weight: 600;
 }
 
 .top_menu li a:hover, .dropdown:hover .dropbtn {
@@ -153,7 +152,7 @@ li.dropdown {
 .search{
   float: right;
   font-size: 30px;
-  margin-left: 150px;
+  margin-left: 100px;
   padding-left: 10px;
   color: #044C7F;
 }
