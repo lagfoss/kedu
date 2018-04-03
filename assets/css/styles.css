@@ -1,11 +1,23 @@
 body{
   margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+main {
+  margin-top: 7%;
+}
+
+main h1{
+  text-align: center;
+  font-size: xx-large;
+  color: #044C7F;
 }
 
 /*Login-page*/
 body.login{
   background-image: url("../images/background.jpg");
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 section.login{
@@ -185,34 +197,152 @@ input[type=search] {
   border-radius: 5px;
 }
 
-/*Manuals*/
+/*Dashboard*/
 
-.manu {
-    background-color: #3498DB;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #044C7F;
+  border-radius: 5px;
 }
 
-.manu:hover, .manu:focus {
-    background-color: #2980B9;
+#user {
+  font-size: 30px;
+}
+
+.column img {
+  width: 90%;
+  height: 50%;
+}
+
+.dash {
+  content: "";
+  display: flex;
+  clear: both;
+}
+
+.column li {
+  list-style-type: none;
+}
+
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+      }
+    }
+
+/*Lesson Plan*/
+
+.column.middle img {
+  height: 30%;
+  width: 30%;
+  float: left;
+  margin-right: 10px;
+}
+
+.tag {
+  background-color: #044C7F;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 5px 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/*Community*/
+
+.allB {
+  margin-left: 32%;
+}
+
+.button {
+  background-color: #044C7F;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 10px 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button4 {
+  float: right;
+  margin-right: 10px;
+}
+
+.column {
+  padding: 10px;
+}
+
+.column.side {
+  width: 15%;
+  min-height: 450px;
+}
+
+.column.side h2 {
+  text-align: center;
+}
+
+.column.middle {
+  width: 65%;
+  float: right;
+  margin-bottom: 20px;
+}
+
+/*Manuals/FAQ*/
+
+article.manuals{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+
+article.manuals button{
+  text-align: center;
+  font-size: 20px;
+  display: inline-block;
+  margin: 4px 2px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: #044C7F;
+  color: #ffffff;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+}
+
+.manu:hover {
+    opacity: 0.9;
 }
 
 .dropmanu {
-    position: relative;
-    display: inline-block;
+    position: static;
+    display: block;
 }
 
 .dropmanu-content {
     display: none;
-    position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+
 }
 
 .dropmanu-content a {
@@ -225,3 +355,39 @@ input[type=search] {
 .dropmanu a:hover {background-color: #ddd}
 
 .show {display:block;}
+
+/*Learn about KUBO*/
+
+.columnh2{
+  display: grid;
+  margin-left: 15%;
+  width: 70%;
+  border: solid 2px #044C7F;
+  border-radius: 5px;
+}
+
+.columnh2 h2{
+  font-size: large;
+  padding: 10px;
+}
+
+.columnlak{
+  display: grid;
+  margin-left: 15%;
+  margin-top: 20px;
+  width: 70%;
+  border: solid 2px #044C7F;
+  border-radius: 5px;
+}
+.columnlak h3{text-align: center;}
+
+/*Learn by video*/
+
+.columvideo{
+display: grid;
+margin-left: 10%;
+margin-top: 20px;
+width: 80%;
+border: solid 2px #044C7F;
+border-radius: 5px;
+}
