@@ -24,7 +24,6 @@ section.login{
   float: left;
   width: 30%;
   color: #044C7F;
-  font-family: 'Lato', sans-serif;
   margin-top: 200px;
   margin-left: 100px;
   padding: 20px;
@@ -63,94 +62,79 @@ button:hover {
 
 /*Header med logo, menu, søgefelt og profil*/
 
-.logo{
-  float: left;
-  margin: 10px;
-}
-
 header{
   background-color: #ffffff;
-  position: fixed;
+  display: flex;
   width: 100%;
   right: 0;
   left: 0;
   top: 0;
-  box-shadow: 0px 2px #044C7F;
+}
+
+.logo{
+  display: inline-flex;
+  justify-content: flex-start;
+  width: 20%;
+  margin: 10px;
 }
 
 nav{
-  display: flex;
+  display: inline-flex;
   justify-content: center;
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
-  margin-top: 10px;
+  overflow: hidden;
+  width: 60%;
+  margin-top: 20px;
 }
 
-.top_menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #044C7F;
-    border-radius: 5px;
-}
-
-.top_menu li {
-    float: left;
-    padding: 10px;
-}
-
- .top_menu li a, .dropbtn {
-    display: block;
+ nav a, .dropbtn {
+    margin-right: 20px;
     color: #044C7F;
+    font-size: 20px;
     text-align: center;
     text-decoration: none;
 }
 
-li a.active, .dropbtn {
+nav a.active{
   color: #f78c29;
 }
 
-.top_menu li a:hover, .dropdown:hover .dropbtn {
+nav a:hover, .dropdown:hover .dropbtn {
   color: #00a19b;
 }
 
-li.dropdown {
-    display: inline-block;
+.dropdown {
+    float: left;
+    overflow: hidden;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #ffffff;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #044C7F;
     border-radius: 5px;
-    min-width: 100px;
+    min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 .dropdown-content a {
-    color: #f78c29;
+    float: none;
+    display: block;
+    color: #044C7F;
     padding: 10px;
     text-decoration: none;
+}
+
+.show {
     display: block;
 }
 
-.dropdown-content a:hover {color: #00a19b;}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.search{
-  float: right;
+.navright{
+  margin: 10px;
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 20%;
   font-size: 30px;
-  margin-left: 20px;
-  padding-left: 20px;
   color: #044C7F;
 }
 
@@ -163,32 +147,11 @@ input[type=search] {
     border-radius: 5px;
   }
 
-.search button{
+.navright button{
   text-align: center;
   font-size: 25px;
   display: inline-block;
   margin-left: 0;
-  padding: 5px;
-  cursor: pointer;
-  background-color: #ffffff;
-  color: #044C7F;
-  border: none;
-  border-radius: 5px;
-}
-
-.profil{
-  float: right;
-  font-size: 30px;
-  margin-left: 20px;
-  padding-left: 20px;
-  color: #044C7F;
-}
-
-.profil button{
-  text-align: center;
-  font-size: 25px;
-  display: inline-block;
-  margin: 0;
   padding: 5px;
   cursor: pointer;
   background-color: #ffffff;

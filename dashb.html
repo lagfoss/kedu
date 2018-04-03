@@ -19,33 +19,29 @@
 </head>
 
   <body>
-      <header>
+    <header>
       <div class="logo">
         <a href="dashb.html"><img src="assets/images/kedulogo.png" alt="logo" height="36px"></a>
       </div>
-      <nav class="top_menu">
-        <ul>
-          <li><a href="dashb.html" class="active">Dashboard</a></li>
-          <li><a href="lplans.html">Lesson Plans</a></li>
-          <li><a href="commu.html">Community</a></li>
-          <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">Learn KUBO</a>
-            <div class="dropdown-content">
-              <a href="lak.html">Learn about KUBO</a>
-              <a href="lbv.html">Learn by video</a>
-              <a href="manuals.html">Manuals</a>
-              <a href="faq.html">FAQ</a>
-            </div>
-          </li>
-        </ul>
-        <div class="search">
-          <input type="search" placeholder="Search..">
-          <button type="search"><span class="fas fa-search"></span></button>
-        </div>
-        <div class="profil">
-          <button type="profil"><span class="far fa-user"></span></button>
+      <nav>
+        <a href="dashb.html" class="active">Dashboard</a>
+        <a href="lplans.html">Lesson Plans</a>
+        <a href="commu.html">Community</a>
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Learn KUBO <span class="fa fa-caret-down"></span></button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="lak.html">Learn about KUBO</a>
+            <a href="lbv.html">Learn by video</a>
+            <a href="manuals.html">Manuals</a>
+            <a href="faq.html">FAQ</a>
+          </div>
         </div>
       </nav>
+      <div class="navright">
+          <input type="search" placeholder="Search..">
+          <button type="search"><span class="fas fa-search"></span></button>
+          <button type="profil"><span class="far fa-user"></span></button>
+      </div>
     </header>
     <main>
       <div class="dash">
