@@ -1,5 +1,5 @@
-// console.log("YAY!"); for debugging use
-function getInfo() {
+//console.log("YAY!"); for debugging use
+/*function getInfo() {
   var email = document.getElementById("email").value
   var password = document.getElementById("password").value
   console.log("")
@@ -7,7 +7,7 @@ function getInfo() {
 
 document.getElementById.("loginButton").onclick = function () {
   location.href = "dashb.html";
-}
+}*/
 
 /*if.getElementById("newsite").innerHTML=""
 document.getElementById("successbox").style.display = "block";
