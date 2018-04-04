@@ -4,12 +4,17 @@ function getInfo() {
   var password = document.getElementById("password").value
   console.log("")
 }
-if.getElementById("newsite").innerHTML=""
+
+document.getElementById.("loginButton").onclick = function () {
+  location.href = "dashb.html";
+}
+
+/*if.getElementById("newsite").innerHTML=""
 
 document.getElementById("successbox").style.display = "block";
 if(email ==""){
    document.getElementById("email").style.border ="2px solid red";
-}
+}*/
 
 /*Manuals*/
 
