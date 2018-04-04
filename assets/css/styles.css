@@ -278,7 +278,7 @@ input[type=search] {
 /*Community*/
 
 .allB {
-  margin-left: 32%;
+  margin-left: 446px;
 }
 
 .button {
@@ -297,18 +297,18 @@ input[type=search] {
 
 .button4 {
   float: right;
-  margin-right: 10px;
+  margin-right: 137px;
 }
 
 .column {
   padding: 10px;
 }
 
-.column.side {
+.column.sidelp {
   width: 15%;
   min-height: 450px;
-  margin-top: 170px;
-  margin-left: 190px;
+  margin-top: 30px;
+  margin-left: 120px;
 }
 .minimenu a{
   text-decoration: none;
@@ -324,9 +324,9 @@ input[type=search] {
 }
 
 .column.middle {
-  width: 65%;
-  float: right;
-  margin-bottom: 20px;
+  width: 60%;
+  margin-left: 75px;
+  margin-top: 30px;
 }
 /*Manuals/FAQ*/
 
