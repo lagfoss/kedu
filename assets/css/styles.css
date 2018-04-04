@@ -242,7 +242,7 @@ input[type=search] {
 /*Community*/
 
 .allB {
-  margin-left: 446px;
+  margin-left: 482px;
 }
 
 .button {
@@ -261,7 +261,7 @@ input[type=search] {
 
 .button4 {
   float: right;
-  margin-right: 137px;
+  margin-right: 12.5%;
 }
 
 .column {
@@ -270,10 +270,12 @@ input[type=search] {
 
 .column.sidelp {
   width: 15%;
-  min-height: 450px;
+  min-height: 550px;
   margin-top: 30px;
   margin-left: 120px;
 }
+
+
 .minimenu a{
   text-decoration: none;
   display: flex;
@@ -292,14 +294,33 @@ input[type=search] {
   border-radius: 50px;
 }
 
+
+.menuu{
+  width: 15%;
+  min-height: 250px;
+  margin-top: 225px;
+  margin-left: 130px;
+  padding: 20px;
+  float: left;
+  border-style: solid;
+  text-align: center;
+  border-width: 2px;
+  border-color: #ffffff;
+  border-radius: 50px;
+  background-color: #ffffff;
+  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
+
+}
+
 .column.side h2 {
   text-align: center;
 }
 
 .column.middle {
-  width: 60%;
-  margin-left: 75px;
+  width: 56%;
+  margin-left: 7.5%;
   margin-top: 30px;
+  padding: 25px;
 }
 /*Manuals/FAQ*/
 
@@ -360,23 +381,23 @@ article.manuals button{
 
 .columnh2{
   display: grid;
-  width: 55%;
+  width: 63%;
   border: solid 15px #f7f7f7;
   border-radius: 50px;
 }
 
 .columnh2 h2{
   font-size: large;
-  padding-left: 120px;
-  width: 90%
+  padding-left: 78px;
+  width: 83%
   padding: 30px;
 }
 
 .columnlak{
   display: grid;
-  margin-left: 525px;
+  margin-left: 500px;
   margin-top: 20px;
-  width: 45%;
+  width: 58%;
   background-color: #ffffff;
   border: solid 4px #f7f7f7;
   border-radius: 50px;
