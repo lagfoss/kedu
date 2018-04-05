@@ -112,7 +112,8 @@ nav a {
 }
 
 nav a.active{
-  color: #f78c29;
+  color: #ef7b3a;
+  font-weight: bold;
 }
 
 nav a:hover, .dropdown:hover .dropbtn {
@@ -237,10 +238,11 @@ input[type=search] {
 }
 
 .tag {
-  background-color: #044C7F;
+  background-color: #ef7b3a;
   border: none;
   color: white;
   padding: 5px 10px;
+  padding-right: 13px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -254,6 +256,15 @@ input[type=search] {
 
 .allB {
   margin-left: 482px;
+}
+button:hover {
+  color: #00a19b;
+}
+
+.com{
+  width: 835px;
+  height: 70px;
+  border-radius: 20px;
 }
 
 .button {
@@ -294,7 +305,6 @@ input[type=search] {
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   margin-top: 20px;
-
   background-color: #044C7F;
   border: none;
   color: white;
@@ -305,6 +315,13 @@ input[type=search] {
   border-radius: 50px;
 }
 
+.minimenu a.active{
+  background-color: #216393;
+}
+
+.minimenu a:hover {
+  color: #00a19b;
+}
 
 .menuu{
   width: 15%;
@@ -386,6 +403,7 @@ article.manuals button{
 
 .manu:hover {
     opacity: 0.9;
+    color: #00a19b;
 }
 
 .dropmanu {
