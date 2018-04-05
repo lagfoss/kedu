@@ -350,17 +350,17 @@ button:hover {
   width: 56%;
   margin-left: 7.5%;
   margin-top: 30px;
-  padding: 22px;
+  padding: 22.5px;
   padding-left: 100px;
 }
 
 .arrows{
   display: grid;
   grid-row: auto;
-  width: 18%;
+  width: 15%;
   position: absolute;
   margin-left: -80px;
-  margin-top: -3px;
+  margin-top: -7px;
   padding: 0;
 
 
