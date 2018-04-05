@@ -1,7 +1,6 @@
 body{
   margin: 0;
   font-family: 'Lato', sans-serif;
-  background-color: #f7f7f7;
 }
 
 main {
@@ -56,7 +55,7 @@ section.login{
   margin-left: 100px;
   padding: 20px;
   background-color: #ffffff;
-  border-radius: 50px;
+  border-radius: 5px;
   box-shadow: 2px 2px;
 }
 
@@ -67,7 +66,7 @@ input[type=email], input[type=password] {
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
-    border-radius: 50px;
+    border-radius: 5px;
   }
 
 section.login button{
@@ -81,7 +80,7 @@ section.login button{
   color: #ffffff;
   width: 100%;
   border: none;
-  border-radius: 50px;
+  border-radius: 5px;
 }
 
 button:hover {
@@ -92,14 +91,11 @@ button:hover {
 
 header{
   background-color: #ffffff;
-  position: fixed;
   display: flex;
   width: 100%;
   right: 0;
   left: 0;
   top: 0;
-  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
-
 }
 
 .logo{
@@ -107,36 +103,6 @@ header{
   justify-content: flex-start;
   width: 20%;
   margin: 10px;
-}
-
-nav{
-  display: inline-flex;
-  justify-content: center;
-  width: 60%;
-  margin-top: 20px;
-}
-
-nav a {
-   margin-left: 10px;
-   margin-right: 10px;
-   color: #044C7F;
-   font-size: 20px;
-   text-align: center;
-   text-decoration: none;
-}
-
-.dropbtn {
-  margin-left: 0;
-  margin-right: 10px;
-  color: #044C7F;
-  font-size: 20px;
-  text-align: center;
-  text-decoration: none;
-}
-
-nav a.active{
-  color: #ef7b3a;
-  font-weight: bold;
 }
 
 nav{
@@ -155,6 +121,10 @@ nav{
     text-decoration: none;
 }
 
+nav a.active{
+  color: #f78c29;
+}
+
 nav a:hover, .dropdown:hover .dropbtn {
   color: #00a19b;
 }
@@ -168,28 +138,22 @@ nav a:hover, .dropdown:hover .dropbtn {
     display: none;
     position: absolute;
     background-color: #ffffff;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #044C7F;
-    border-radius: 40px;
-    min-width: 100px;
-
+    border-radius: 5px;
+    min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 .dropdown-content a {
+    float: none;
     display: block;
     color: #044C7F;
     padding: 10px;
     text-decoration: none;
 }
 
-.dropdown-content a:hover {color: #00a19b;}
-
-.dropdown:hover .dropdown-content{
-  display: block;
-
+.show {
+    display: block;
 }
 
 .navright{
@@ -214,34 +178,27 @@ input[type=search] {
   text-align: center;
   font-size: 25px;
   display: inline-block;
-  margin-left: 0px;
+  margin-left: 0;
   padding: 5px;
   cursor: pointer;
   background-color: #ffffff;
   color: #044C7F;
   border: none;
-  border-radius: 50px;
+  border-radius: 5px;
 }
 
 /*Dashboard*/
 
 .column {
-  display: inline-flex;
-  flex: 40%;
-  margin-left: 120px;
-  margin-top: 90px;
+  float: left;
+  width: 50%;
+  padding: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
   border-style: solid;
-  border-color: #ffffff;
-  border-radius: 50px;
-  background-color: #ffffff;
-  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
-}
-
-.columnn{
-  display: inline-flex;
-  flex: 40%;
-  border-width: 25px;
-
+  border-width: 2px;
+  border-color: #044C7F;
+  border-radius: 5px;
 }
 
 #user {
@@ -257,7 +214,6 @@ input[type=search] {
   display: flex;
   flex: 80%;
   clear: both;
-  width: 90%
 }
 
 .column li {
@@ -273,42 +229,30 @@ input[type=search] {
 /*Lesson Plan*/
 
 .column.middle img {
-  height: 35%;
-  width: 35%;
+  height: 30%;
+  width: 30%;
   float: left;
-  margin-right: 0px;
-  padding: 10px;
-  border-radius: 40px;;
+  margin-right: 10px;
 }
 
 .tag {
-  background-color: #f1f1f2;
+  background-color: #044C7F;
   border: none;
-  color: #044c7f;
+  color: white;
   padding: 5px 10px;
-  padding-right: 13px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 12px;
   margin: 5px 5px;
   cursor: pointer;
-  border-radius: 50px;
+  border-radius: 5px;
 }
 
 /*Community*/
 
 .allB {
-  margin-left: 482px;
-}
-button:hover {
-  color: #00a19b;
-}
-
-.com{
-  width: 98%;
-  height: 70px;
-  border-radius: 20px;
+  margin-left: 32%;
 }
 
 .button {
@@ -322,66 +266,21 @@ button:hover {
   font-size: 20px;
   margin: 10px 5px;
   cursor: pointer;
-  border-radius: 50px;
+  border-radius: 5px;
 }
 
 .button4 {
   float: right;
-  margin-right: 12.5%;
+  margin-right: 10px;
 }
 
 .column {
   padding: 10px;
 }
 
-.column.sidelp {
+.column.side {
   width: 15%;
-  min-height: 550px;
-  margin-top: 30px;
-  margin-left: 120px;
-}
-
-
-.minimenu a{
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
-  margin-top: 20px;
-  background-color: #044C7F;
-  border: none;
-  color: white;
-  padding: 5px 10px;
-  text-align: center;
-  margin: 5px 5px;
-  cursor: pointer;
-  border-radius: 50px;
-}
-
-.minimenu a.active{
-  background-color: #216393;
-}
-
-.minimenu a:hover {
-  color: #00a19b;
-}
-
-.menuu{
-  width: 15%;
-  min-height: 250px;
-  margin-top: 55px;
-  margin-left: 130px;
-  padding: 20px;
-  float: left;
-  border-style: solid;
-  text-align: center;
-  border-width: 2px;
-  border-color: #ffffff;
-  border-radius: 50px;
-  background-color: #ffffff;
-  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
-
+  min-height: 450px;
 }
 
 .column.side h2 {
@@ -389,37 +288,10 @@ button:hover {
 }
 
 .column.middle {
-  width: 51%;
-  margin-left: 7.5%;
-  margin-top: 30px;
-  padding: 22.5px;
-  padding-left: 100px;
+  width: 65%;
+  float: right;
+  margin-bottom: 20px;
 }
-
-.arrows{
-  display: grid;
-  grid-row: auto;
-  width: 14%;
-  position: absolute;
-  margin-left: -80px;
-  margin-top: -7px;
-  padding: 0;
-
-
-}
-.arrowbtn {
-outline: none;
-background-color: transparent;
-border:none;
-style: none;
-  padding: 0;
-}
-.arrowbtn button {
-  width: 50px;
-  max-width: 50px;
-  padding: 0;
-}
-
 
 /*Manuals/FAQ*/
 
@@ -427,8 +299,7 @@ article.manuals{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10px;
-  width: 47%;
+  width: 50%;
   text-align: center;
 }
 
@@ -437,19 +308,17 @@ article.manuals button{
   font-size: 20px;
   display: inline-block;
   margin: 4px 2px;
-  padding: 8px;
+  padding: 5px;
   cursor: pointer;
   background-color: #044C7F;
   color: #ffffff;
   width: 100%;
   border: none;
-  border-radius: 50px;
-  margin-bottom: 15px;
+  border-radius: 5px;
 }
 
 .manu:hover {
     opacity: 0.9;
-    color: #00a19b;
 }
 
 .dropmanu {
@@ -459,12 +328,10 @@ article.manuals button{
 
 .dropmanu-content {
     display: none;
-    background-color: #ffffff;
+    background-color: #f1f1f1;
     min-width: 160px;
-    padding: 10px;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    border-radius: 40px;
 
 }
 
@@ -481,43 +348,36 @@ article.manuals button{
 
 /*Learn about KUBO*/
 
-
-
 .columnh2{
   display: grid;
-  width: 63%;
-  border: solid 15px #f7f7f7;
-  border-radius: 50px;
+  margin-left: 15%;
+  width: 70%;
+  border: solid 2px #044C7F;
+  border-radius: 5px;
 }
 
 .columnh2 h2{
   font-size: large;
-  padding-left: 78px;
-  width: 83%
-  padding: 30px;
+  padding: 10px;
 }
 
 .columnlak{
   display: grid;
-  margin-left: 32%;
-  margin-top: -5px;
-  width: 58%;
-  background-color: #ffffff;
-  border: solid 4px #f7f7f7;
-  border-radius: 50px;
-  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
+  margin-left: 15%;
+  margin-top: 20px;
+  width: 70%;
+  border: solid 2px #044C7F;
+  border-radius: 5px;
 }
-.columnlak h3{text-align: center;
-}
-
+.columnlak h3{text-align: center;}
 
 /*Learn by video*/
 
 .columvideo{
 display: grid;
-margin-left: 28%;
-margin-top: 55px;
-width: 15%;
-height: 15%;
-
+margin-left: 10%;
+margin-top: 20px;
+width: 80%;
+border: solid 2px #044C7F;
+border-radius: 5px;
 }
