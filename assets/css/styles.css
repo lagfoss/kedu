@@ -2,6 +2,7 @@
 }
 
 
+
 body{
   margin: 0;
   font-family: 'Lato', sans-serif;
@@ -29,7 +30,6 @@ section.login{
   float: left;
   width: 30%;
   color: #044C7F;
-  font-family: 'Lato', sans-serif;
   margin-top: 200px;
   margin-left: 100px;
   padding: 20px;
@@ -77,6 +77,7 @@ header{
   left: 0;
   top: 0;
   box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
+
 }
 
 .logo{
@@ -116,12 +117,32 @@ nav a.active{
   font-weight: bold;
 }
 
+nav{
+  display: inline-flex;
+  justify-content: center;
+  overflow: hidden;
+  width: 60%;
+  margin-top: 20px;
+}
+
+ nav a, .dropbtn {
+    margin-right: 20px;
+    color: #044C7F;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
 nav a:hover, .dropdown:hover .dropbtn {
   color: #00a19b;
 }
 
+#learnt{
+text-align: center;
+margin-right: 320px;
+}
+
 .dropdown {
-    margin-left: 0;
     float: left;
     overflow: hidden;
 }
@@ -135,6 +156,7 @@ nav a:hover, .dropdown:hover .dropbtn {
     border-color: #044C7F;
     border-radius: 40px;
     min-width: 100px;
+
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -150,6 +172,7 @@ nav a:hover, .dropdown:hover .dropbtn {
 
 .dropdown:hover .dropdown-content{
   display: block;
+
 }
 
 .navright{
@@ -258,6 +281,7 @@ input[type=search] {
 
 .allB {
   margin-left: 482px;
+  color: #044c7f;
 }
 button:hover {
   color: #00a19b;
@@ -299,6 +323,22 @@ button:hover {
   margin-left: 120px;
 }
 
+p{
+  color: #044c7f;
+}
+
+h1{
+  color: #044c7f;
+}
+
+h2{
+  color: #044c7f;
+}
+
+h3{
+  color: #044c7f;
+}
+
 
 .minimenu a{
   text-decoration: none;
@@ -315,10 +355,13 @@ button:hover {
   margin: 5px 5px;
   cursor: pointer;
   border-radius: 50px;
+  margin-top: 15px;
 }
 
 .minimenu a.active{
-  background-color: #216393;
+  background-color: #f1f1f2;
+  color: #ef7b3a;
+    box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
 }
 
 .minimenu a:hover {
@@ -328,7 +371,7 @@ button:hover {
 .menuu{
   width: 15%;
   min-height: 250px;
-  margin-top: 50px;
+  margin-top: 55px;
   margin-left: 130px;
   padding: 20px;
   float: left;
@@ -344,6 +387,7 @@ button:hover {
 
 .column.side h2 {
   text-align: center;
+  color: #044c7f;
 }
 
 .column.middle {
@@ -385,7 +429,8 @@ article.manuals{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  margin-bottom: 10px;
+  width: 47%;
   text-align: center;
 }
 
@@ -394,13 +439,14 @@ article.manuals button{
   font-size: 20px;
   display: inline-block;
   margin: 4px 2px;
-  padding: 5px;
+  padding: 8px;
   cursor: pointer;
   background-color: #044C7F;
   color: #ffffff;
   width: 100%;
   border: none;
   border-radius: 50px;
+  margin-bottom: 15px;
 }
 
 .manu:hover {
@@ -415,10 +461,12 @@ article.manuals button{
 
 .dropmanu-content {
     display: none;
-    background-color: #f1f1f1;
+    background-color: #ffffff;
     min-width: 160px;
+    padding: 10px;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 40px;
 
 }
 
@@ -449,12 +497,13 @@ article.manuals button{
   padding-left: 78px;
   width: 83%
   padding: 30px;
+  color: #044c7f;
 }
 
 .columnlak{
   display: grid;
-  margin-left: 32.3%;
-  margin-top: 20px;
+  margin-left: 32%;
+  margin-top: -5px;
   width: 58%;
   background-color: #ffffff;
   border: solid 4px #f7f7f7;
@@ -462,6 +511,7 @@ article.manuals button{
   box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
 }
 .columnlak h3{text-align: center;
+  color: #044c7f;
 }
 
 
@@ -469,9 +519,9 @@ article.manuals button{
 
 .columvideo{
 display: grid;
-margin-left: 10%;
-margin-top: 20px;
-width: 80%;
-border: solid 2px #044C7F;
-border-radius: 50px;
+margin-left: 28%;
+margin-top: 55px;
+width: 15%;
+height: 15%;
+
 }
