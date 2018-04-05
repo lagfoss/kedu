@@ -112,7 +112,7 @@ nav a {
 }
 
 nav a.active{
-  color: #fdae60;
+  color: #ef7b3a;
   font-weight: bold;
 }
 
@@ -238,7 +238,7 @@ input[type=search] {
 }
 
 .tag {
-  background-color: #fdae60;
+  background-color: #ef7b3a;
   border: none;
   color: white;
   padding: 5px 10px;
