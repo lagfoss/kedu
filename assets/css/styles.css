@@ -256,6 +256,12 @@ input[type=search] {
   margin-left: 482px;
 }
 
+.com{
+  width: 835px;
+  height: 70px;
+  border-radius: 20px;
+}
+
 .button {
   background-color: #044C7F;
   border: none;
