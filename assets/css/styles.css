@@ -357,7 +357,7 @@ button:hover {
 .arrows{
   display: grid;
   grid-row: auto;
-  width: 15%;
+  width: 14%;
   position: absolute;
   margin-left: -80px;
   margin-top: -7px;
