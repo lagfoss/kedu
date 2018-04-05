@@ -81,6 +81,23 @@
   padding:20px;
   border-radius: 50px;
 }
+.sitemanu {
+    position: static;
+    display: block;
+  }
+.sitewaymanu-content{
+  text-align: center;
+  font-size: 20px;
+  margin: 4px 2px;
+  padding: 8px;
+  cursor: pointer;
+  background-color: limegreen;
+  color: #ffffff;
+  width: 100%;
+  border: none;
+  border-radius: 50px;
+  margin-bottom: 15px;
+}
 
 
 .VELKOMMEN{
