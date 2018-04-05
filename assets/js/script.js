@@ -1,21 +1,24 @@
-// console.log("YAY!"); for debugging use
-function getInfo() {
+//console.log("YAY!"); for debugging use
+/*function getInfo() {
   var email = document.getElementById("email").value
   var password = document.getElementById("password").value
   console.log("")
 }
-if.getElementById("newsite").innerHTML=""
 
+document.getElementById.("loginButton").onclick = function () {
+  location.href = "dashb.html";
+}*/
+
+/*if.getElementById("newsite").innerHTML=""
 document.getElementById("successbox").style.display = "block";
 if(email ==""){
-   document.getElementById("email").style.border ="2px solid red";
-}
+ document.getElementById("email").style.border ="2px solid red";
+}*/
 
 /*Manuals*/
 
 function myFunction(a) {
   a.parentNode.getElementsByClassName("dropmanu-content")[0].classList.toggle("show");
-  }
 }
 // Close the dropdown if the user clicks outside of it
 window.onclick = function(event) {
@@ -27,7 +30,6 @@ window.onclick = function(event) {
       var openDropdown = dropdowns[i];
       if (openDropdown.classList.contains('show')) {
         openDropdown.classList.remove('show');
-
       }
     }
   }
