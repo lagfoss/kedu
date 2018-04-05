@@ -93,12 +93,22 @@ nav{
   margin-top: 20px;
 }
 
-nav a, .dropbtn {
-   margin-right: 20px;
+nav a {
+   margin-left: 10px;
+   margin-right: 10px;
    color: #044C7F;
    font-size: 20px;
    text-align: center;
    text-decoration: none;
+}
+
+.dropbtn {
+  margin-left: 0;
+  margin-right: 10px;
+  color: #044C7F;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
 }
 
 nav a.active{
@@ -110,6 +120,7 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 .dropdown {
+    margin-left: 0;
     float: left;
     overflow: hidden;
 }
