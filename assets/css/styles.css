@@ -358,7 +358,7 @@ button:hover {
   display: grid;
   grid-row: auto;
   width: 20%;
-  position: relative;
+  position: absolute;
   margin-left: -90px;
   margin-top: -3px;
   padding: 0;
