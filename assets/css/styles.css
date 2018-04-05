@@ -259,6 +259,9 @@ input[type=search] {
 .allB {
   margin-left: 482px;
 }
+button:hover {
+  color: #00a19b;
+}
 
 .com{
   width: 835px;
@@ -318,6 +321,10 @@ input[type=search] {
   background-color: #216393;
 }
 
+.minimenu a:hover {
+  color: #00a19b;
+}
+
 .menuu{
   width: 15%;
   min-height: 250px;
@@ -344,7 +351,34 @@ input[type=search] {
   margin-left: 7.5%;
   margin-top: 30px;
   padding: 25px;
+  padding-left: 100px;
 }
+
+.arrows{
+  display: grid;
+  grid-row: auto;
+  width: 20%;
+  position: relative;
+  margin-left: -90px;
+  margin-top: -3px;
+  padding: 0;
+
+
+}
+.arrowbtn {
+outline: none;
+background-color: transparent;
+border:none;
+style: none;
+  padding: 0;
+}
+.arrowbtn button {
+  width: 50px;
+  max-width: 50px;
+  padding: 0;
+}
+
+
 /*Manuals/FAQ*/
 
 article.manuals{
@@ -371,6 +405,7 @@ article.manuals button{
 
 .manu:hover {
     opacity: 0.9;
+    color: #00a19b;
 }
 
 .dropmanu {
