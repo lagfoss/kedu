@@ -67,11 +67,10 @@ function showSlides(n) {
 }
 
 /*community post*/
-
 function getLocal() {
-  var notes = localStorage.getItem('noteList');
+  var note = localStorage.getItem('commPost');
 
-  if(notes != null) {
+  if(note != null) {
       return JSON.parse(notes);
   }
   else {
@@ -79,28 +78,26 @@ function getLocal() {
   }
 }
 
-function setLocal(origNotes) {
-  var newNotes = JSON.stringify(origNotes);
-  localStorage.setItem('noteList', newNotes);
+function setLocal(origNote) {
+  var newNote = JSON.stringify(origNote);
+  localStorage.setItem('commPost', newNote);
 }
 
-function submitNote(inputText, inputDate, inputImportant, inputIcon) {
-  var origNotes = getLocal();
-  var newNote = {
+function submitNote(inputText, inputIcon) {
+  var origNote = getLocal();
+  var newNotee = {
     text:       inputText,
-    date:       inputDate,
-    important:  inputImportant,
     icon:       inputIcon
   };
-  origNotes.push(newNote);
+  origNote.push(newNotee);
 
-  setLocal(origNotes);
+  setLocal(origNote);
 }
 
 //setLocal('Cry', '2018-04-03 11:11:11', true, 'empire');
 
 function buildList() {
-  var notes = getLocal();
+  var note = getLocal();
 
   var ulElm = document.querySelector('ul');
   ulElm.innerHTML = '';
@@ -108,31 +105,23 @@ function buildList() {
   for(var i = 0; i < notes.length; i++) {
     var liElm = document.createElement('li');
     var pElm = document.createElement('p');
-    var delBtn = document.createElement('button');
-    var btnText = document.createTextNode('Edit');
 
-    if(notes[i].important === true) {
-      liElm.style.backgroundColor = 'deeppink';
-      liElm.style.color = 'white';
-    }
-
-    pElm.innerHTML = notes[i].text;
+    pElm.innerHTML = note[i].text;
     pElm.classList.add('pinkUnicorn');
     pElm.setAttribute('data-index', i);
 
     pElm.addEventListener('click', function(event) {
       var index = event.target.getAttribute('data-index')
-      var notes = getLocal();
-      console.log(notes[index]);
-      notes[index].text = "Changed";
-      var inputTemp = document.querySelector('#noteText');
+      var note = getLocal();
+      console.log(note[index]);
+      note[index].text = "Changed";
+      var inputTemp = document.querySelector('#comment');
       inputTemp.value = 'whatever';
-      setLocal(notes);
+      setLocal(note);
       buildList();
     });
 
     liElm.appendChild(pElm);
-    liElm.appendChild(delBtn);
     delBtn.appendChild(btnText);
 
     ulElm.appendChild(liElm);
@@ -143,12 +132,12 @@ window.onload = function() {
   buildList();
 }
 
-var submitBtn = document.querySelector('#addNote');
+var submitBtn = document.querySelector('#addComment');
 
 submitBtn.addEventListener('click', function() {
-  var text = document.querySelector('#noteText');
+  var text = document.querySelector('#comment');
 
-  submitNote(text.value, 'empire');
+  submitNote(text.value);
   buildList();
 
   text.value = '';

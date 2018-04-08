@@ -540,6 +540,46 @@ style: none;
   padding: 0;
 }
 
+/*community Post*/
+
+.column.post {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 30px;
+  padding: 22.5px;
+  padding-left: 100px;
+}
+
+.commentsField {
+  margin-left: 7.5%;
+  margin-top: 30px;
+  padding: 22.5px;
+  padding-left: 100px;
+}
+
+#comment {
+  width: 50%;
+  margin-left: 15%;
+  margin-top: 30px;
+  padding: 22.5px;
+  border-radius: 50px;
+  border: 2px solid #044C7F;
+}
+#addComment {
+  margin-left: 17%;
+  background-color: #044C7F;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-top: 5px;
+}
+
 
 /*Manuals/FAQ*/
 
