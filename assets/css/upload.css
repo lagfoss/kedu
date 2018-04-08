@@ -41,6 +41,7 @@ body{
   border-style: solid;
   padding:5px;
   border-width: medium;
+  margin: 2%;
 }
 
 .form-control1{
@@ -53,6 +54,7 @@ body{
   border-width: medium;
   font-size: 38px;
   text-align: center;
+  margin: 2%;
 }
 
 .form-control2{
@@ -64,6 +66,7 @@ body{
   padding:5px;
   border-width: medium;
   font-size: 20px;
+  margin: 2%;
 }
 
 #addst{
@@ -91,7 +94,6 @@ body{
 
 #add1{
   width: 40%;
-  padding: 20px;
   background-color: #226494;
   color: white;
   font-size: 25px;
