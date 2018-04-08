@@ -1,20 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>KEDU - The Educational Community and Curriculum Platform</title>
+    <script defer src="assets/js/script.js"></script>
+    <link href="assets/css/upload.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/images/favicon/safari-pinned-tab.svg" color="#ffffff">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+  </head>
 
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <title>KEDU - The Educational Community and Curriculum Platform</title>
-  <link href="assets/css/upload.css" rel="stylesheet">
-</head>
-
-
-<body>
-  <br><br>
+  <body>
+    <header>
+    <div class="logo">
+      <a href="dashb.html"><img src="assets/images/kedulogo.png" alt="logo" height="36px"></a>
+    </div>
+    </header>
   <div class="container">
-    <div class="row">
-      <div class="box">
-        <div class="area">
+        <div class="greybox">
           <br><br>
           <h1>UPLOAD LESSONPLAN</h1>
           <p>Here you can upload your own lessonplan for KUBO robot. <br> and share your lessonplan width other teachers</p>
@@ -22,23 +31,19 @@
           <div class="row">
             <div class="col-md-5">
               <form class="form">
+                <h2>Lessonplan titel </h2>
+                <input class="form-control1" placeholder="Title..."></input><br>
                 <br>
-                <label id="titel"><b>Lessonplan titel </b></label><br>
-                <textarea class="form-control"></textarea><br>
-                <br>
-                <label>Short description </label><br>
-                <textarea class="form-control2"></textarea><br><br>
-
-                <button id="pic">Upload display picture </button>
+                <label><strong>Short description </label><br>
+                <textarea class="form-control2" placeholder="In this Lessonplan can you learn about..."></textarea><br><br>
+                <button id="upload">Upload display picture </button>
             </div>
-
-            <br>
-            <br><br><br>
-            <label><b>Titel lesson 1</b> </label><br>
+          </div>
+        </div>
+              <div class="box">
+            <h2> Lesson One </h2>
             <textarea class="form-control"></textarea><br><br>
-            <button id="pic">Upload Video </button><br><br>
-            <button id="pic">Upload Picture </button><br><br>
-            <br>
+            <button id="upload">Upload Video/Pictures</button><br>
 
             <label><strong>Tags</strong> </label><br>
             <textarea class="form-control"></textarea><br>
@@ -53,44 +58,43 @@
             <textarea class="form-control"></textarea><br>
             <label> Tip </label><br>
             <textarea class="form-control"></textarea><br>
-            <button id="mini">Add tip </button><br>
+            <button id="addst">Add tip </button><br>
             <br><br>
-
-
+        </div>
+        <div class="box">
             <label><strong>Step 1</strong> </label><br>
             <textarea class="form-control"></textarea><br>
             <label>Description </label><br>
             <textarea class="form-control"></textarea><br>
-            <button id="">Upload picture </button><br>
+            <button id="upload">Upload picture </button><br>
 
             <br><br>
             <label><strong>Step 2</strong> </label><br>
             <textarea class="form-control"></textarea><br>
             <label>Description </label><br>
             <textarea class="form-control"></textarea><br>
-            <button id="">Upload picture </button><br>
+            <button id="upload">Upload picture </button><br>
 
             <br><br>
             <label><strong>Step 3</strong> </label><br>
             <textarea class="form-control"></textarea><br>
             <label>Description </label><br>
             <textarea class="form-control"></textarea><br>
-            <button id="">Upload picture </button><br>
+            <button id="upload">Upload picture </button><br>
             <br><br>
-            <button id="pic" type="button">Add step</button>
-            <br><br><br>
+            <button id="addst" type="button">Add step</button>
+      </div>
 
 
             <br>
             <button id="add1" type="button">Add another lesson</button>
-
-            <button id="add2" type="button">Upload</button>
-
+            <button id="add1" type="button">Upload</button>
             </form>
             <br><br>
           </div>
+          </div>
 
-        </div>
+
 
 </body>
 
