@@ -113,7 +113,10 @@
 }
 
 
-
+* a{
+  text-decoration: none;
+  color: black;
+}
 
 .VELKOMMEN{
 }
@@ -544,7 +547,7 @@ style: none;
 
 .column.post {
   width: 50%;
-  margin-left: 25%;
+  margin-left: 22%;
   margin-top: 30px;
   padding: 22.5px;
   padding-left: 100px;
@@ -554,7 +557,6 @@ style: none;
   margin-left: 7.5%;
   margin-top: 30px;
   padding: 22.5px;
-  padding-left: 100px;
   position: fixed;
   bottom: 0;
   width: 100%;
