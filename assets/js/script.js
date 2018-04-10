@@ -5,7 +5,7 @@ function getInfo() {
   console.log("")
 }
 
-document.getElementById("loginButton").onclick = function () {
+/*document.getElementById("loginButton").onclick = function () {
   location.href = "dashb.html";
 }
 
@@ -75,7 +75,7 @@ function getLocal() {
   var note = localStorage.getItem('commPost');
 
   if(note != null) {
-      return JSON.parse(notes);
+      return JSON.parse(note);
   }
   else {
     return [];
@@ -87,18 +87,15 @@ function setLocal(origNote) {
   localStorage.setItem('commPost', newNote);
 }
 
-function submitNote(inputText, inputIcon) {
+function submitNote(inputText) {
   var origNote = getLocal();
   var newNotee = {
     text:       inputText,
-    icon:       inputIcon
   };
   origNote.push(newNotee);
 
   setLocal(origNote);
 }
-
-//setLocal('Cry', '2018-04-03 11:11:11', true, 'empire');
 
 function buildList() {
   var note = getLocal();
@@ -106,7 +103,7 @@ function buildList() {
   var ulElm = document.querySelector('ul');
   ulElm.innerHTML = '';
 
-  for(var i = 0; i < notes.length; i++) {
+  for(var i = 0; i < note.length; i++) {
     var liElm = document.createElement('li');
     var pElm = document.createElement('p');
 
@@ -126,8 +123,6 @@ function buildList() {
     });
 
     liElm.appendChild(pElm);
-    delBtn.appendChild(btnText);
-
     ulElm.appendChild(liElm);
   }
 }
