@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>KEDU - The Educational Community and Curriculum Platform</title>
-  <meta description=" Kedu er en....." />
+  <meta description="KUBO Education, KEDU for short, is KUBO’s online curriculum platform"/>
   <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
@@ -23,37 +23,50 @@
     <div class="logo">
       <a href="dashb.html"><img src="assets/images/kedulogo.png" alt="logo" height="36px"></a>
     </div>
-    <nav class="top_menu">
-      <ul>
-        <li><a href="dashb.html">Dashboard</a></li>
-        <li><a href="lplans.html">Lesson Plans</a></li>
-        <li><a href="commu.html">Community</a></li>
-        <li class="dropdown">
-          <a href="javascript:void(0)" class="dropbtn">Learn KUBO</a>
-          <div class="dropdown-content">
-            <a href="lak.html">Learn about KUBO</a>
-            <a href="lbv.html" class="active">Learn by video</a>
-            <a href="manuals.html">Manuals</a>
-            <a href="faq.html">FAQ</a>
-          </div>
-        </li>
-      </ul>
-      <div class="search">
-        <input type="search" placeholder="Search..">
-        <button type="search"><span class="fas fa-search"></span></button>
-      </div>
-      <div class="profil">
-        <button type="profil"><span class="far fa-user"></span></button>
+    <nav>
+      <a href="dashb.html">Dashboard</a>
+      <a href="lplans.html">Lesson Plans</a>
+      <a href="commu.html">Community</a>
+      <a href="lak.html" class="active">Learn KUBO</a>
+      <div class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn"><span class="fas fa-caret-down"></span></a>
+        <div class="dropdown-content">
+          <a href="lak.html">Introduction to KUBO</a>
+          <a href="lbv.html" class="active">Learn by video</a>
+          <a href="manuals.html">Manuals</a>
+          <a href="faq.html">FAQ</a>
+        </div>
+      </nav>
+      <div class="navright">
+          <input type="search" placeholder="Search..">
+          <button type="search"><span class="fas fa-search"></span></button>
+          <button type="profil"><span class="far fa-user"></span></button>
       </div>
     </nav>
+    <div class="navright">
+      <input type="search" placeholder="Search..">
+      <button type="search"><span class="fas fa-search"></span></button>
+      <button type="profil"><span class="far fa-user"></span></button>
+    </div>
   </header>
+  <div class="comm">
+    <div class="column side">
+      <h2>Menu</h2>
+      <div class="minimenu">
+        <a href="lak.html">Introduction to KUBO</a>
+        <a href="lbv.html" class="active">Learn by video</a>
+        <a href="manuals.html">Manuals</a>
+        <a href="faq.html">FAQ</a> </div>
+    </div>
+  </div><br><br>
   <main>
-    <h1>Learn by video</h1>
+    <h1 id="learnt">LEARN BY VIDEO</h1>
     <div class="columvideo">
-    <iframe src="https://player.vimeo.com/video/241524463" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    <p><a href="https://vimeo.com/241524463">Getting Started: Loops</a> from
-      <a href="https://vimeo.com/user67173792">KUBO Robotics</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-      </div>
+      <iframe src="https://player.vimeo.com/video/241524463" width="690" height="450"
+      frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <p><a href="https://vimeo.com/241524463">Getting Started: Loops</a> from
+        <a href="https://vimeo.com/user67173792">KUBO Robotics</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    </div>
   </main>
 
 </body>
