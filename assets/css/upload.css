@@ -149,7 +149,6 @@ body{
 
 /*regt.html*/
 .supperbox{
-  display:block;
   margin: auto;
   background-color: #f2f5f7;
   border-radius: 50px;
@@ -161,9 +160,14 @@ body{
   font-size: 20px;
   padding: 40px;
 }
+.flexi{
+  display:flex;
+  flex: wrap;
+  justify-content: flex-end;
+  justify-content: center;
+}
 
 .signup1{
-  flex: 1;
   height: 40px;
   border-radius: 20px;
   border-color: #dedfdf;
@@ -176,7 +180,6 @@ body{
 }
 
 .signup2{
-  flex: 2;
   width:85%;
   height: 80px;
   border-radius: 20px;
