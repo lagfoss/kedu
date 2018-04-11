@@ -13,7 +13,7 @@ document.getElementById("signup").onclick = function () {
   location.href = "regt.html";
 }
 
-/*if.getElementById("newsite").innerHTML=""
+if.getElementById("newsite").innerHTML=""
 document.getElementById("successbox").style.display = "block";
 if(email ==""){
  document.getElementById("email").style.border ="2px solid red";
