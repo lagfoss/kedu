@@ -564,11 +564,20 @@ style: none;
   width: 100%;
 }
 
+#yourName {
+  width: 30%;
+  margin-left: 15%;
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 50px;
+  border: 2px solid #044C7F;
+  font-size: 12px;
+}
+
 #comment {
   width: 50%;
   margin-left: 15%;
-  margin-top: 30px;
-  padding: 22.5px;
+  padding: 10px;
   border-radius: 50px;
   border: 2px solid #044C7F;
   font-size: 12px;
@@ -590,11 +599,11 @@ style: none;
 
 }
 
-.commentPostAdded ul {
+.columnadded ul {
   list-style-type: none;
 }
 
-.column-added {
+.columnadded {
   display: flex;
   width: 50%;
   margin-left: 22%;

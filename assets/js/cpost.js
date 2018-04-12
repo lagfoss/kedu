@@ -15,9 +15,10 @@ function setLocal(origNote) {
   localStorage.setItem('commPost', newNote);
 }
 
-function submitNote(inputText) {
+function submitNote(inputName, inputText) {
   var origNote = getLocal();
   var newNotee = {
+    name:       inputName,
     text:       inputText,
   };
   origNote.push(newNotee);
@@ -27,8 +28,6 @@ function submitNote(inputText) {
 
 function buildList() {
   var note = getLocal();
-
-  
 
   var ulElm = document.querySelector('ul');
   ulElm.innerHTML = '';
@@ -64,10 +63,12 @@ window.onload = function() {
 var submitBtn = document.querySelector('#addComment');
 
 submitBtn.addEventListener('click', function() {
+  var name = document.querySelector('#yourName')
   var text = document.querySelector('#comment');
 
-  submitNote(text.value);
+  submitNote(yourName.value, text.value);
   buildList();
 
+  yourName.value = '';
   text.value = '';
 })
