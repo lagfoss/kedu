@@ -1,20 +1,30 @@
-//console.log("YAY!"); for debugging use
-function getInfo() {
-  var email = document.getElementById("email").value
-  var password = document.getElementById("password").value
-  console.log("")
+//Email and password from signup
+
+var email = document.getElementById('email');
+var password = document.getElementById('password');
+
+//storing input from signup
+
+function store() {
+  localStorage.setItem('email', email.value);
+  localStorage.setItem('password', password.value);
 }
 
-document.getElementById("loginButton").onclick = function () {
-  location.href = "dashb.html";
-}
+//check if stored data from signup is equal to entered data in the login
 
-document.getElementById("signup").onclick = function () {
-  location.href = "regt.html";
-}
+function check() {
+  //stored data from the signup
+  var storedEmail = localStorage.getItem('email');
+  var storedPassword = localStorage.getElementById('password');
 
-if.getElementById("newsite").innerHTML=""
-document.getElementById("successbox").style.display = "block";
-if(email ==""){
- document.getElementById("email").style.border ="2px solid red";
+  //entered data from loginbutton
+  var userEmail = document.getElementById('userEmail');
+  var userPassword = document.getElementById('userPassword');
+
+  //check if stored data from signup is equal to data from loginbutton
+  if(userEmail.value == storedEmail && userPassword.value == storedPassword) {
+    alert('Welcome to KEDU');
+  }else {
+    alert('Incorrect email or password');
+  }
 }
