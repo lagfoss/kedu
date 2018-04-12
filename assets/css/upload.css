@@ -162,7 +162,8 @@ body{
   padding-bottom: 10px;
 }
 .flexi{
-  display:flex;
+  display: -webkit-flex; /* Safari */
+  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
   flex: wrap;
   justify-content: center;
 }
