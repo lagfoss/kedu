@@ -90,7 +90,7 @@ nav{
   margin-top: 20px;
 }
 
- nav a, .dropbtn {
+ nav a {
     margin-right: 20px;
     color: #044C7F;
     font-size: 20px;
@@ -98,16 +98,24 @@ nav{
     text-decoration: none;
 }
 
-nav a:hover, .dropdown:hover .dropbtn {
+nav a:hover, .dropdown:hover .dropbtn, .dropdown:hover .dropprofil {
   color: #00a19b;
 }
 
 .dropdown {
-    float: left;
+    float: right;
     overflow: hidden;
 }
 
-.dropdown-content {
+.dropprofil {
+  margin-left: 0;
+  color: #044C7F;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.dropdown-content, .dropprofil-content {
     display: none;
     position: absolute;
     background-color: #ffffff;
@@ -120,16 +128,16 @@ nav a:hover, .dropdown:hover .dropbtn {
     z-index: 1;
 }
 
-.dropdown-content a {
+.dropdown-content a, .dropprofil-content a {
     display: block;
     color: #044C7F;
     padding: 10px;
     text-decoration: none;
 }
 
-.dropdown-content a:hover {color: #00a19b;}
+.dropdown-content a:hover, .dropprofil-content a:hover {color: #00a19b;}
 
-.dropdown:hover .dropdown-content{
+.dropdown:hover .dropdown-content, .drophown:hover .dropprofil-content{
   display: block;
 }
 

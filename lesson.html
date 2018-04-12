@@ -15,6 +15,7 @@
   <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
   <script defer src="assets/js/script.js"></script>
   <script defer src="assets/js/gallery.js"></script>
+  <script defer src="assets/js/profil.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
   <script defer src="assets/js/fontawesome-all.js"></script>
 </head>
@@ -42,7 +43,12 @@
     <div class="navright">
       <input type="search" placeholder="Search..">
       <button type="search"><span class="fas fa-search"></span></button>
-      <button type="profil"><span class="far fa-user"></span></button>
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropprofil"><span class="far fa-user"></span></button>
+        <div id="myProfil" class="dropprofil-content" style="right:0;">
+          <a href="login.html">Log Out</a>
+        </div>
+      </div>
     </div>
   </header>
   <main>
