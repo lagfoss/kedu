@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>KEDU - The Educational Community and Curriculum Platform</title>
+    <meta description="KUBO Education, KEDU for short, is KUBO’s online curriculum platform"/>
     <script defer src="assets/js/script.js"></script>
     <link href="assets/css/upload.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -22,25 +23,21 @@
       <a href="dashb.html"><img src="assets/images/kedulogo.png" alt="logo" height="36px"></a>
     </div>
     </header>
-  <div class="container">
-        <div class="greybox">
-          <br><br>
-          <h1>UPLOAD LESSONPLAN</h1>
-          <p>Here you can upload your own lessonplan for KUBO robot. <br> and share your lessonplan width other teachers</p>
 
-          <div class="row">
-            <div class="col-md-5">
-              <form class="form">
+        <div class="greybox">
+          <h1>UPLOAD LESSONPLAN</h1>
+          <p>Here you can upload your own lessonplan for KUBO robot. <br> and share
+            your lessonplan width other teachers</p>
+
                 <h2>Lessonplan titel </h2>
                 <input class="form-control1" placeholder="Title..."></input><br>
                 <br>
                 <label><strong>Short description </strong></label><br>
-                <textarea class="form-control2" placeholder="In this Lessonplan can you learn about..."></textarea><br><br>
+                <textarea class="form-control2" placeholder="In this Lessonplan can
+                you learn about..."></textarea><br><br>
                 <button id="upload">Upload display picture </button>
               <div class="smallgreybox">
                     <button id="addst">+Add another display picture </button>
-                </div>
-            </div>
           </div>
         </div>
               <div class="box">
@@ -64,20 +61,20 @@
         </div>
         <div class="box">
             <h3>Step 1</h3>
-            <textarea class="form-control1"></textarea><br>
+            <input class="form-control1" placeholder="Title..."></input><br>
             <label>Description </label><br>
             <textarea class="form-control2"></textarea><br>
             <button id="upload">Upload picture </button><br>
 
 
             <h3>Step 2</h3>
-            <textarea class="form-control1"></textarea><br>
+            <input class="form-control1" placeholder="Title..."></input><br>
             <label>Description </label><br>
             <textarea class="form-control2"></textarea><br>
             <button id="upload">Upload picture </button><br>
 
             <h3>Step 3 </h3>
-            <textarea class="form-control1"></textarea><br>
+            <input class="form-control1" placeholder="Title..."></input><br>
             <label>Description </label><br>
             <textarea class="form-control2"></textarea><br>
             <button id="upload">Upload picture </button><br>
@@ -85,15 +82,14 @@
               <button id="addst">+Add another step </button>
           </div>
       </div>
-  </form>
-  </div>
+
 
       <div class="downunder">
-          <div class="colorback">
+          <div class="colorback" style=" margin-left: -30%; margin-right: 30%;">
             <button id="add2" type="button">+Add another lesson</button>
           </div>
-          <div>
-            <button id="add1" type="button">Upload everything</button>
+          <div style="margin-left: 30%; margin-right: -30%">
+            <button id="add1" onclick="window.location.href='lplans.html'" type="button">Upload everything</button>
           </div>
         </div>
 

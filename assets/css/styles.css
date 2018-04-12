@@ -122,7 +122,10 @@ margin-top: 30px;
 }
 
 
-
+* a{
+  text-decoration: none;
+  color: black;
+}
 
 .VELKOMMEN{
 }
@@ -553,17 +556,21 @@ style: none;
 
 .column.post {
   width: 50%;
-  margin-left: 25%;
+  margin-left: 22%;
   margin-top: 30px;
   padding: 22.5px;
   padding-left: 100px;
+  position: fixed;
+  top: 10%;
 }
 
 .commentsField {
   margin-left: 7.5%;
   margin-top: 30px;
   padding: 22.5px;
-  padding-left: 100px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 #comment {
@@ -574,6 +581,7 @@ style: none;
   border-radius: 50px;
   border: 2px solid #044C7F;
   font-size: 12px;
+
 }
 #addComment {
   margin-left: 17%;
@@ -588,8 +596,24 @@ style: none;
   cursor: pointer;
   border-radius: 50px;
   margin-top: 5px;
+
 }
 
+.commentPostAdded ul {
+  list-style-type: none;
+}
+
+.column-added {
+  display: flex;
+  width: 50%;
+  margin-left: 22%;
+  margin-top: 30px;
+  padding: 22.5px;
+  padding-left: 100px;
+  position: fixed;
+  top: 40%;
+
+}
 
 /*Manuals/FAQ*/
 
