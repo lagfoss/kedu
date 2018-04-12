@@ -28,6 +28,8 @@ function submitNote(inputText) {
 function buildList() {
   var note = getLocal();
 
+  
+
   var ulElm = document.querySelector('ul');
   ulElm.innerHTML = '';
 
