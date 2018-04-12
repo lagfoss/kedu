@@ -149,6 +149,7 @@ body{
 /*regt.html*/
 .supperbox{
   margin: auto;
+  font-weight: bolder;
   background-color: #f2f5f7;
   border-radius: 50px;
   max-width: 80%;
@@ -168,9 +169,10 @@ body{
 }
 
 .signup1{
-  height: 40px;
-  width:220px;
+  height: 35px;
+  width:300px;
   margin: 20px;
+  margin-top:5px;
   border-radius: 20px;
   border-color: #dedfdf;
   border-style: solid;
