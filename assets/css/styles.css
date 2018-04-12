@@ -594,7 +594,7 @@ style: none;
   list-style-type: none;
 }
 
-.column.added {
+.column-added {
   display: flex;
   width: 50%;
   margin-left: 22%;
