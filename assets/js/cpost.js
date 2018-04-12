@@ -28,8 +28,6 @@ function submitNote(inputText) {
 function buildList() {
   var note = getLocal();
 
-  
-
   var ulElm = document.querySelector('ul');
   ulElm.innerHTML = '';
 
@@ -66,8 +64,9 @@ var submitBtn = document.querySelector('#addComment');
 submitBtn.addEventListener('click', function() {
   var text = document.querySelector('#comment');
 
-  submitNote(text.value);
+  submitNote(yourName.value, text.value);
   buildList();
 
+  yourName.value = '';
   text.value = '';
 })
