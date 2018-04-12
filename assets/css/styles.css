@@ -50,7 +50,6 @@ header{
   top: 0;
   box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
   z-index: 2;
-
 }
 
 .logo{
@@ -172,6 +171,7 @@ input[type=search] {
   border-radius: 50px;
 }
 
+<<<<<<< HEAD
 /*lesson*/
 .kasse1{
   height: 120px;
@@ -228,6 +228,8 @@ input[type=search] {
   font-size: 20px;
   color:#044C7F;
 }
+=======
+>>>>>>> 3e8a9e8ecacb4366c1e0016c7ff639d5bc5c5535
 /*Login-page*/
 
 body.login{
@@ -351,12 +353,86 @@ text-align: center;
 margin-right: 320px;
 }
 
+/*lesson*/
+.kasse1{
+  height: 120px;
+  width: 220px;
+  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
+  margin-left: 200px;
+  margin-top: 80px;
+  padding:20px;
+  border-radius: 50px;
+}
+
+.kasse2{
+  height: 600px;
+  width: 220px;
+  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
+    margin-left: 200px;
+    padding:20px;
+    border-radius: 50px;
+}
+
+.kasse3{
+  display: flex;
+  height: 600px;
+  width: 750px;
+  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
+  margin-left: 35%;
+  margin-top: -640px;
+  padding:40px;
+  border-radius: 50px;
+  z-index: 1;
+}
+
+.kasse8{
+  height: 450px;
+  width: 720px;
+  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
+  margin top: 3px;
+  margin-left: 560px;
+  padding:20px;
+  border-radius: 50px;
+}
+
+.orange{
+  color: #ef7b3a;
+}
+
+.sitemanu {
+    position: static;
+    display: inline;
+  }
+
+.sitewaymanu-content{
+  float: left;
+  font-size: 20px;
+  margin: 4px 2px;
+  padding: 8px;
+  cursor: pointer;
+  background-color: limegreen;
+  color: #ffffff;
+  width: 100%;
+  border: none;
+  border-radius: 50px;
+  margin-bottom: 15px;
+}
+
+.droppi{
+  width: 145%;
+  padding: 15px;
+  margin-left: -60px;
+  font-size: 20px;
+  color:#044C7F;
+}
+
 /*Community*/
 
 .allB {
   margin-left: 482px;
   color: #044c7f;
 }
+
 button:hover {
   color: #00a19b;
 }
@@ -390,8 +466,6 @@ button:hover {
   padding: 10px;
 }
 
-
-
 .column.sidelp {
   width: 15%;
   min-height: 550px;
@@ -418,7 +492,6 @@ button:hover {
 
 .minimenu a.active{
   color: #ef7b3a;
-
 }
 
 .minimenu a:hover {
@@ -506,8 +579,8 @@ style: none;
   border-radius: 50px;
   border: 2px solid #044C7F;
   font-size: 12px;
-
 }
+
 #addComment {
   margin-left: 15%;
   background-color: #044C7F;
@@ -727,6 +800,7 @@ height: 15%;
 .demo:hover {
   opacity: 1;
 }
+<<<<<<< HEAD
 
 /*lesson*/
 .kasse1{
@@ -788,3 +862,5 @@ height: 15%;
 .but{
   margin-left: 20px;
 }
+=======
+>>>>>>> 3e8a9e8ecacb4366c1e0016c7ff639d5bc5c5535
