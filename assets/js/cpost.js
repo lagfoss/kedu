@@ -15,10 +15,9 @@ function setLocal(origNote) {
   localStorage.setItem('commPost', newNote);
 }
 
-function submitNote(inputName, inputText) {
+function submitNote(inputText) {
   var origNote = getLocal();
   var newNotee = {
-    name:       inputName,
     text:       inputText,
   };
   origNote.push(newNotee);
@@ -63,7 +62,6 @@ window.onload = function() {
 var submitBtn = document.querySelector('#addComment');
 
 submitBtn.addEventListener('click', function() {
-  var name = document.querySelector('#yourName')
   var text = document.querySelector('#comment');
 
   submitNote(yourName.value, text.value);

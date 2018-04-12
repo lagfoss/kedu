@@ -577,16 +577,6 @@ style: none;
   width: 100%;
 }
 
-#yourName {
-  width: 30%;
-  margin-left: 15%;
-  margin-top: 30px;
-  padding: 10px;
-  border-radius: 50px;
-  border: 2px solid #044C7F;
-  font-size: 12px;
-}
-
 #comment {
   width: 50%;
   margin-left: 15%;
@@ -597,7 +587,7 @@ style: none;
 
 }
 #addComment {
-  margin-left: 17%;
+  margin-left: 15%;
   background-color: #044C7F;
   border: none;
   color: white;
