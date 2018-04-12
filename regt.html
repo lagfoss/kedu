@@ -6,6 +6,7 @@
     <meta description="KUBO Education, KEDU for short, is KUBO’s online curriculum platform"/>
     <link rel="stylesheet" href="assets/css/styles.css">
     <script defer src="assets/js/script.js"></script>
+    <script defer src="assets/js/login.js"></script>
     <link href="assets/css/upload.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
@@ -43,7 +44,7 @@
             <div class="flexi">
                   <div style="margin-right: 10%; margin-left:-17%;">
                 <label>E-mail: </label>
-                  <input class="signup1" type="email" placeholder="John@gmail.com" required></input>
+                  <input class="signup1" id="email" type="email" placeholder="Enter E-mail" required value=""/>
               </div>
               <div style="margin-left:10%; margin-right:-17%;">
             <label>E-mail: </label>
@@ -53,8 +54,8 @@
 
             <div class="flexi">
           <div style="margin-right: 10%; margin-left:-17%;">
-          <label>password: </label>
-            <input class="signup1" type="password" placeholder="John1234" required></input>
+          <label>Password: </label>
+            <input class="signup1" id="password" type="password" placeholder="Enter Password" required value=""/>
           </div>
           <div style="margin-left:10%; margin-right:-17%;">
           <label>repeat-password: </label>
@@ -99,7 +100,7 @@
 
 
            <div class="signup1">
-            <button id="add1" onclick="window.location.href='dashb.html'" type="button">Signup</button>
+            <button id="add1" onclick="store" value="get Account" type="submit">Sign Up</button>
           </div>
         </div>
 
