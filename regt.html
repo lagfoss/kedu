@@ -21,7 +21,7 @@
   <body>
     <header>
     <div class="logo">
-      <a href="dashb.html"><img src="assets/images/kedulogo.png" alt="logo" height="36px"></a>
+      <a href="login.html"><img src="assets/images/kedulogo.png" alt="logo" height="36px"></a>
     </div>
     </header>
 
@@ -32,38 +32,42 @@
             <div class="flexi">
                 <div>
                 <label>First Name: </label><br>
-                <input class="signup1" placeholder="John..."></input><br>
+                <input class="signup1" placeholder="John..." autofocus required></input><br>
               </div>
               <div>
                 <label>Last Name: </label><br>
-                <input class="signup1" placeholder="Doe"></input><br>
+                <input class="signup1" placeholder="Doe" required></input><br>
               </div>
               </div>
-
 
               <div class="flexi">
                   <div>
                 <label>E-mail: </label><br>
-                  <input class="signup1" placeholder="John@gmail.com"></input><br>
+                  <input class="signup1" type="email" placeholder="John@gmail.com" required></input><br>
                 <label>Gender: </label><br>
-                  <input class="signup1" placeholder="Female"></input><br>
+                  <div class="signup1"> <input type="radio" name="gender" value="male">
+                  Male<input type="radio" name="gender" value="female"> Female</input></div><br>
                 <label>Phone number: </label><br>
-                  <input class="signup1" placeholder="+00 12345678"></input><br>
+                  <input class="signup1" type="tel" placeholder="+00 12345678"></input><br>
                 <label>City: </label><br>
                   <input class="signup1" placeholder="New Town"></input><br>
                 </div>
-                
+
                 <div>
                 <label>password: </label><br>
-                  <input class="signup1" placeholder="John1234"></input><br>
+                  <input class="signup1" type="password" placeholder="John1234" required></input><br>
                 <label>Birthday: </label><br>
-                  <input class="signup1" placeholder="February 29, 1920"></input><br>
+                  <input class="signup1" type="date"></input><br>
                 <label>Country: </label><br>
                   <input class="signup1" placeholder="South Region"></input><br>
                 <label>School: </label><br>
                   <input class="signup1" placeholder="New South Prime"></input><br>
                 </div>
                 </div>
+                <div class="flexi">
+                  <button id="add1" type="button">Signup</button>
+                </div>
+
             </div>
 
 
