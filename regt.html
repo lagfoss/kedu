@@ -5,7 +5,6 @@
     <title>KEDU - The Educational Community and Curriculum Platform</title>
     <meta description="KUBO Education, KEDU for short, is KUBO’s online curriculum platform"/>
     <link rel="stylesheet" href="assets/css/styles.css">
-    <script defer src="assets/js/script.js"></script>
     <script defer src="assets/js/login.js"></script>
     <link href="assets/css/upload.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -42,7 +41,7 @@
             <div class="flexi">
                   <div style="margin-right: 7%;">
                 <label>E-mail: </label> <br>
-                  <input class="signup1" id="email" type="email" placeholder="Enter E-mail" required value=""/>
+                  <input class="signup1" id="mail" type="email" placeholder="Enter E-mail" required value=""/>
               </div>
               <div style="margin-left:7%;">
             <label>E-mail: </label> <br>
@@ -52,7 +51,7 @@
             <div class="flexi">
           <div style="margin-right: 7%;">
           <label>Password: </label> <br>
-            <input class="signup1" id="password" type="password" placeholder="Enter Password" required value=""/>
+            <input class="signup1" id="pw" type="password" placeholder="Enter Password" required value=""/>
           </div>
           <div style="margin-left:7%;">
           <label>repeat-password: </label> <br>
@@ -92,10 +91,10 @@
                   <input class="signup1" placeholder="New South Prime"></input>
                 </div>
                 <div class="signup2" style="margin-right:10%;">
-                 <button id="add1" onclick="store" value="get Account" type="submit">Back</button>
+                 <button id="add1">Back</button>
                </div>
                <div class="signup2" style="margin-left:10%;">
-                <button id="add1" onclick="store" value="get Account" type="submit">Sign Up</button>
+                <input id="add1" onclick="store" value="Sign Up" type="submit"/>
               </div>
               </div>
         </div>
