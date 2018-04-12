@@ -335,6 +335,8 @@ button:hover {
   padding: 10px;
 }
 
+
+
 .column.sidelp {
   width: 15%;
   min-height: 550px;
@@ -445,15 +447,14 @@ style: none;
 #comment {
   width: 50%;
   margin-left: 15%;
-  margin-top: 30px;
-  padding: 22.5px;
+  padding: 10px;
   border-radius: 50px;
   border: 2px solid #044C7F;
   font-size: 12px;
 
 }
 #addComment {
-  margin-left: 17%;
+  margin-left: 15%;
   background-color: #044C7F;
   border: none;
   color: white;
@@ -467,11 +468,11 @@ style: none;
   margin-top: 5px;
 }
 
-.commentPostAdded ul {
+.columnadded ul {
   list-style-type: none;
 }
 
-.column-added {
+.columnadded {
   display: flex;
   width: 50%;
   margin-left: 22%;
