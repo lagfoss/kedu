@@ -308,7 +308,7 @@ section.login{
   box-shadow: 2px 2px;
 }
 
-.login input[type=email], input[type=password] {
+.login input[type=email], .login input[type=password] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
