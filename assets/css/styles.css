@@ -50,7 +50,6 @@ header{
   top: 0;
   box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
   z-index: 2;
-
 }
 
 .logo{
@@ -172,122 +171,6 @@ input[type=search] {
   border-radius: 50px;
 }
 
-/*lesson*/
-.kasse1{
-  height: 120px;
-  width: 220px;
-  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
-  margin-left: 200px;
-  margin-top: 80px;
-  padding:20px;
-  border-radius: 50px;
-}
-
-.kasse2{
-  height: 600px;
-  width: 220px;
-  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
-    margin-left: 200px;
-    padding:20px;
-    border-radius: 50px;
-}
-
-.kasse3{
-  display: flex;
-  height: 600px;
-  width: 750px;
-  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
-    margin-left: 35%;
-    margin-top: 235px;
-    padding:40px;
-    border-radius: 50px;
-    z-index: 1;
-}
-
-.kasse4{
-  height: 100px;
-  width: 120px;
-  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
-  margin-left: 200px;
-  margin-top: 80px;
-  padding:20px;
-  border-radius: 50px;
-}
-.kasse4{
-  height: 100px;
-  width: 120px;
-  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
-  margin-left: -20px;
-  margin-top: 490px;
-  padding:20px;
-  border-radius: 50px;
-}
-.kasse5{
-  height: 100px;
-  width: 120px;
-  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
-  margin-left: 181px;
-  margin-top: -20px;
-  padding:20px;
-  border-radius: 50px;
-}
-.kasse6{
-  height: 100px;
-  width: 120px;
-  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
-  margin-left: 178px;
-  margin-top: -20px;
-  padding:20px;
-  border-radius: 50px;
-}
-.kasse7{
-  height: 100px;
-  width: 120px;
-  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
-  margin-left: 187px;
-  margin-top: -20px;
-  padding:20px;
-  border-radius: 50px;
-}
-.kasse8{
-  height: 450px;
-  width: 720px;
-  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
-  margin top: 3px;
-  margin-left: 560px;
-  padding:20px;
-  border-radius: 50px;
-}
-
-.orange{
-  color: #ef7b3a;
-}
-
-.sitemanu {
-    position: static;
-    display: inline;
-  }
-.sitewaymanu-content{
-  float: left;
-  font-size: 20px;
-  margin: 4px 2px;
-  padding: 8px;
-  cursor: pointer;
-  background-color: limegreen;
-  color: #ffffff;
-  width: 100%;
-  border: none;
-  border-radius: 50px;
-  margin-bottom: 15px;
-}
-
-.droppi{
-  width: 145%;
-  padding: 15px;
-  margin-left: -60px;
-  font-size: 20px;
-  color:#044C7F;
-}
 /*Login-page*/
 
 body.login{
@@ -411,12 +294,86 @@ text-align: center;
 margin-right: 320px;
 }
 
+/*lesson*/
+.kasse1{
+  height: 120px;
+  width: 220px;
+  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
+  margin-left: 200px;
+  margin-top: 80px;
+  padding:20px;
+  border-radius: 50px;
+}
+
+.kasse2{
+  height: 600px;
+  width: 220px;
+  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
+    margin-left: 200px;
+    padding:20px;
+    border-radius: 50px;
+}
+
+.kasse3{
+  display: flex;
+  height: 600px;
+  width: 750px;
+  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
+  margin-left: 35%;
+  margin-top: -640px;
+  padding:40px;
+  border-radius: 50px;
+  z-index: 1;
+}
+
+.kasse8{
+  height: 450px;
+  width: 720px;
+  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
+  margin top: 3px;
+  margin-left: 560px;
+  padding:20px;
+  border-radius: 50px;
+}
+
+.orange{
+  color: #ef7b3a;
+}
+
+.sitemanu {
+    position: static;
+    display: inline;
+  }
+
+.sitewaymanu-content{
+  float: left;
+  font-size: 20px;
+  margin: 4px 2px;
+  padding: 8px;
+  cursor: pointer;
+  background-color: limegreen;
+  color: #ffffff;
+  width: 100%;
+  border: none;
+  border-radius: 50px;
+  margin-bottom: 15px;
+}
+
+.droppi{
+  width: 145%;
+  padding: 15px;
+  margin-left: -60px;
+  font-size: 20px;
+  color:#044C7F;
+}
+
 /*Community*/
 
 .allB {
   margin-left: 482px;
   color: #044c7f;
 }
+
 button:hover {
   color: #00a19b;
 }
@@ -450,8 +407,6 @@ button:hover {
   padding: 10px;
 }
 
-
-
 .column.sidelp {
   width: 15%;
   min-height: 550px;
@@ -478,7 +433,6 @@ button:hover {
 
 .minimenu a.active{
   color: #ef7b3a;
-
 }
 
 .minimenu a:hover {
@@ -566,8 +520,8 @@ style: none;
   border-radius: 50px;
   border: 2px solid #044C7F;
   font-size: 12px;
-
 }
+
 #addComment {
   margin-left: 15%;
   background-color: #044C7F;
@@ -786,122 +740,4 @@ height: 15%;
 .active,
 .demo:hover {
   opacity: 1;
-}
-
-/*lesson*/
-.kasse1{
-  height: 120px;
-  width: 220px;
-  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
-  margin-left: 200px;
-  margin-top: 80px;
-  padding:20px;
-  border-radius: 50px;
-}
-
-.kasse2{
-  height: 600px;
-  width: 220px;
-  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
-    margin-left: 200px;
-    padding:20px;
-    border-radius: 50px;
-}
-
-.kasse3{
-  display: flex;
-  height: 600px;
-  width: 750px;
-  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
-    margin-left: 35%;
-    margin-top: -640px;
-    padding:40px;
-    border-radius: 50px;
-    z-index: 1;
-}
-
-.kasse4{
-  height: 100px;
-  width: 120px;
-  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
-  margin-left: 200px;
-  margin-top: 80px;
-  padding:20px;
-  border-radius: 50px;
-}
-.kasse4{
-  height: 100px;
-  width: 120px;
-  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
-  margin-left: -20px;
-  margin-top: 490px;
-  padding:20px;
-  border-radius: 50px;
-}
-.kasse5{
-  height: 100px;
-  width: 120px;
-  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
-  margin-left: 181px;
-  margin-top: -20px;
-  padding:20px;
-  border-radius: 50px;
-}
-.kasse6{
-  height: 100px;
-  width: 120px;
-  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
-  margin-left: 178px;
-  margin-top: -20px;
-  padding:20px;
-  border-radius: 50px;
-}
-.kasse7{
-  height: 100px;
-  width: 120px;
-  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
-  margin-left: 187px;
-  margin-top: -20px;
-  padding:20px;
-  border-radius: 50px;
-}
-.kasse8{
-  height: 450px;
-  width: 720px;
-  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
-  margin top: 3px;
-  margin-left: 560px;
-  padding:20px;
-  border-radius: 50px;
-}
-
-.sitemanu {
-    position: static;
-    display: inline;
-  }
-.sitewaymanu-content{
-  float: left;
-  font-size: 20px;
-  margin: 4px 2px;
-  padding: 8px;
-  cursor: pointer;
-  background-color: limegreen;
-  color: #ffffff;
-  width: 100%;
-  border: none;
-  border-radius: 50px;
-  margin-bottom: 15px;
-}
-
-
-.droppi{
-  width: 145%;
-  padding: 15px;
-  margin-left: -60px;
-  font-size: 20px;
-  color:#044C7F;
-}
-
-.but{
-  margin-left: 20px;
 }
