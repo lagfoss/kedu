@@ -698,7 +698,7 @@ article.manuals button{
 .columnlak{
   display: grid;
   margin-left: 32%;
-  margin-top: -5px;
+  margin-top: 10px;
   width: 58%;
   background-color: #ffffff;
   border: solid 4px #f7f7f7;
