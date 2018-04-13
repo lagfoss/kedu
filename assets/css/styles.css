@@ -130,6 +130,7 @@ nav a:hover, .dropdown:hover .dropbtn, .dropdown:hover .dropprofil {
 
 .dropprofil-content{
   font-size: 20px;
+  padding: 10px;
 }
 
 .dropdown-content a, .dropprofil-content a {
