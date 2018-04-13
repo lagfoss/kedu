@@ -301,7 +301,7 @@ button:hover, .loginbutton:hover {
 /*Lesson Plan*/
 
 .column.middle img {
-  height: 35%;
+  height: 37%;
   width: 35%;
   float: left;
   margin-right: 0px;
@@ -480,6 +480,7 @@ button:hover {
 
 .column.middle {
   width: 51%;
+  height: 170px;
   margin-left: 7.5%;
   margin-top: 30px;
   padding: 22.5px;
