@@ -303,6 +303,7 @@ button:hover, .loginbutton:hover {
   padding: 5%;
   padding-top: 0%;
   border-style: solid;
+  text-align: left;
   border-color: #f1f1f2;
   border-radius: 40px;
   background-color: #f1f1f2;
