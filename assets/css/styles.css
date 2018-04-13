@@ -276,7 +276,7 @@ button:hover, .loginbutton:hover {
   height: 50%;
 }
 
-.column li {
+.latestplan li {
   list-style-type: none;
 }
 
@@ -295,13 +295,6 @@ button:hover, .loginbutton:hover {
 #user {
   font-size: 30px;
 }
-
-
-@media screen and (max-width:600px) {
-    .column {
-        width: 100%;
-      }
-    }
 
 /*Lesson Plan*/
 
