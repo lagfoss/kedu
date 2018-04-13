@@ -578,7 +578,7 @@ style: none;
 /*Manuals/FAQ*/
 
 article.manuals{
-  display: block;
+  display: grid;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
