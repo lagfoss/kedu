@@ -64,9 +64,8 @@ var submitBtn = document.querySelector('#addComment');
 submitBtn.addEventListener('click', function() {
   var text = document.querySelector('#comment');
 
-  submitNote(yourName.value, text.value);
+  submitNote(text.value);
   buildList();
-
-  yourName.value = '';
+  
   text.value = '';
 })
