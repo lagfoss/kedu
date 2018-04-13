@@ -1,14 +1,11 @@
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
 function myLesson(a) {
-    document.getElementById("lesson").classList.toggle("show");
+  a.parentNode.getElementsByClassName("drop-content")[0].classList.toggle("show");
 }
-
 // Close the dropdown if the user clicks outside of it
 window.onclick = function(event) {
   if (!event.target.matches('.droppi')) {
 
-    var dropdowns = document.getElementsByClassName("lesson");
+    var dropdowns = document.getElementsByClassName("drop-content");
     var i;
     for (i = 0; i < dropdowns.length; i++) {
       var openDropdown = dropdowns[i];
