@@ -1,6 +1,7 @@
 function store() {
   //Email and password from signup
   var email = document.getElementById('mail');
+  console.log(email);
   var password = document.getElementById('pw');
   //storing input from signup
   localStorage.setItem('mail', email.value);
