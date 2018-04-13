@@ -265,7 +265,7 @@ button:hover, .loginbutton:hover {
   margin-top: 35px;
   margin-left: 10%;
   margin-right: 2%;
-  padding-bottom: 3.4%;
+  padding-bottom:1.4%;;
   border-style: solid;
   text-align: center;
   border-color: #ffffff;
@@ -302,6 +302,7 @@ button:hover, .loginbutton:hover {
   margin-top:4%;
   padding: 5%;
   padding-top: 0%;
+  padding-bottom: 0%;
   border-style: solid;
   text-align: left;
   border-color: #f1f1f2;
@@ -338,6 +339,13 @@ button:hover, .loginbutton:hover {
   margin: 5px 5px;
   cursor: pointer;
   border-radius: 50px;
+}
+
+.tagDropmanu {
+  margin-left: 6px;;
+  position: static;
+  display: block;
+  width: 164px;
 }
 
 #result{
