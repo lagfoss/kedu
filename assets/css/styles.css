@@ -302,7 +302,7 @@ button:hover, .loginbutton:hover {
   border-width: 25px;
 }
 .dashchat{
-  
+
 }
 #user {
   font-size: 30px;
@@ -332,6 +332,14 @@ button:hover, .loginbutton:hover {
   margin: 5px 5px;
   cursor: pointer;
   border-radius: 50px;
+}
+
+
+
+
+#lpthumbnail{
+  height:150px;
+  width: 250px;;
 }
 
 /*lesson*/
