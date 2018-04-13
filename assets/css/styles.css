@@ -270,7 +270,7 @@ button:hover, .loginbutton:hover {
   flex: 1;
   margin-top: 50px;
   margin-left: 10%;
-  margin-right: 5%;
+  margin-right: 2%;
   border-style: solid;
   border-color: #ffffff;
   border-radius: 50px;
@@ -290,7 +290,7 @@ button:hover, .loginbutton:hover {
 .latestchat{
   flex: 1;
   margin-right: 10%;
-  margin-left: 10%;
+  margin-left: 4%;
   margin-top: 50px;
   border-style: solid;
   border-color: #ffffff;
