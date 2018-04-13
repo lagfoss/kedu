@@ -255,15 +255,20 @@ button:hover, .loginbutton:hover {
 
 .dash {
   content: "";
+  width: 100%;
+  display: -webkit-flex; /* Safari */
+  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
   display: flex;
-  clear: both;
-  width: 90%
+  flex-wrap: wrap;
+  justify-content: center;
+
 }
 
 .latestplan{
-  float: left;
-  margin-left: 120px;
+  flex: 1;
   margin-top: 50px;
+  margin-left: 10%;
+  margin-right: 5%;
   border-style: solid;
   border-color: #ffffff;
   border-radius: 50px;
@@ -281,8 +286,9 @@ button:hover, .loginbutton:hover {
 }
 
 .latestchat{
-  float: left;
-  margin-left: 120px;
+  flex: 1;
+  margin-right: 10%;
+  margin-left: 10%;
   margin-top: 50px;
   border-style: solid;
   border-color: #ffffff;
