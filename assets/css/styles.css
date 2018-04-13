@@ -373,7 +373,7 @@ button:hover, .loginbutton:hover {
   margin-top: 10%;
 }
 
-.kasse3{
+.gallerybox{
   display: flex;
   float: right;
   margin-right: 10%;
@@ -385,7 +385,7 @@ button:hover, .loginbutton:hover {
   z-index: 1;
 }
 
-.kasse8{
+.lessoninfo{
   display: grid;
   height: 450px;
   width: 720px;
