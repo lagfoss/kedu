@@ -302,7 +302,7 @@ button:hover, .loginbutton:hover {
   border-width: 25px;
 }
 .dashchat{
-  
+
 }
 #user {
   font-size: 30px;
@@ -399,6 +399,19 @@ button:hover, .loginbutton:hover {
   margin-left: -60px;
   font-size: 20px;
   color:#044C7F;
+}
+
+.drop-content{
+  display: none;
+  background-color: #ffffff;
+  width: 100%;
+  overflow: auto;
+}
+
+.drop-content button {
+    background-color: transparent;
+    border: none;
+
 }
 
 /*Community*/
