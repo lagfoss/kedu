@@ -244,15 +244,8 @@ button:hover, .loginbutton:hover {
   color: #044c7f;
   font-weight: 200;
   text-align: center;
-  margin-top: 30px;
   margin-right: 10%;
-  padding: 20px;
-  width: 79%;
-  border-width: 2px;
-  border-color: #ffffff;
-  border-radius: 50px;
-  background-color: #ffffff;
-  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
+  width: 80%;
 }
 
 .dash {
@@ -269,10 +262,11 @@ button:hover, .loginbutton:hover {
 .latestplan{
   flex: 1;
   height: 100%;
-  margin-top: 50px;
+  margin-top: 35px;
   margin-left: 10%;
   margin-right: 2%;
   border-style: solid;
+  text-align: center;
   border-color: #ffffff;
   border-radius: 50px;
   background-color: #ffffff;
@@ -286,6 +280,7 @@ button:hover, .loginbutton:hover {
 
 .latestplan li {
   list-style-type: none;
+  float: left;
 }
 
 .latestchat{
@@ -293,8 +288,9 @@ button:hover, .loginbutton:hover {
   height: 100%;
   margin-right: 10%;
   margin-left: 4%;
-  margin-top: 50px;
+  margin-top: 35px;
   border-style: solid;
+  text-align: center;
   border-color: #ffffff;
   border-radius: 50px;
   background-color: #ffffff;
@@ -302,6 +298,16 @@ button:hover, .loginbutton:hover {
   border-width: 25px;
 }
 .dashchat{
+  margin-top:4%;
+  padding: 5%;
+  padding-top: 0%;
+  text-align: left;
+  border-style: solid;
+  border-color: #f1f1f2;
+  border-radius: 40px;
+  background-color: #f1f1f2;
+  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
+  border-width: 10px;
 
 }
 #user {
@@ -332,6 +338,14 @@ button:hover, .loginbutton:hover {
   margin: 5px 5px;
   cursor: pointer;
   border-radius: 50px;
+}
+
+
+
+
+#lpthumbnail{
+  height:150px;
+  width: 250px;;
 }
 
 /*lesson*/
@@ -601,6 +615,26 @@ style: none;
 
 /*Manuals/FAQ*/
 
+.manualBox {
+  width: 58%;
+  margin-top: 10px;
+  margin-left: 35%;
+  background-color: #ffffff;
+  border: solid 4px #f7f7f7;
+  border-radius: 50px;
+  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
+}
+
+.faqBox {
+  width: 58%;
+  margin-top: 10px;
+  margin-left: 35%;
+  background-color: #ffffff;
+  border: solid 4px #f7f7f7;
+  border-radius: 50px;
+  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
+}
+
 article.manuals{
   display: grid;
   margin-left: auto;
@@ -675,7 +709,7 @@ article.manuals button{
 
 .columnlak{
   display: grid;
-  margin-left: 32%;
+  margin-left: 35%;
   margin-top: 10px;
   width: 58%;
   background-color: #ffffff;
@@ -693,10 +727,15 @@ article.manuals button{
 
 .columvideo{
 display: grid;
-margin-left: 28%;
-margin-top: 55px;
-width: 15%;
-height: 15%;
+margin-left: 35%;
+margin-top: 3.5%;
+width: 54%;
+border: none;
+background-color: #ffffff;
+padding: 30px;
+border-radius: 50px;
+border: solid 4px #f7f7f7;
+box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
 }
 
 /*Gallery*/
