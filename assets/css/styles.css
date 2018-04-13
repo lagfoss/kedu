@@ -317,6 +317,15 @@ button:hover, .loginbutton:hover {
 
 /*Lesson Plan*/
 
+
+.dropcontainer{
+  margin-top: -70px;
+}
+
+.tsearch{
+  margin-top: -60px;
+}
+
 .column.middle img {
   height: 37%;
   width: 35%;
@@ -342,7 +351,7 @@ button:hover, .loginbutton:hover {
 }
 
 .tagDropmanu {
-  margin-left: 6px;;
+  margin-left: 6px;
   position: static;
   display: block;
   width: 164px;
@@ -425,6 +434,7 @@ button:hover, .loginbutton:hover {
   width: 145%;
   padding: 15px;
   margin-left: -60px;
+
   font-size: 20px;
   color:#044C7F;
 }
