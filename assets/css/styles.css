@@ -308,6 +308,7 @@ button:hover, .loginbutton:hover {
   background-color: #f1f1f2;
   box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
   border-width: 10px;
+
 }
 #user {
   font-size: 30px;
@@ -337,6 +338,14 @@ button:hover, .loginbutton:hover {
   margin: 5px 5px;
   cursor: pointer;
   border-radius: 50px;
+}
+
+
+
+
+#lpthumbnail{
+  height:150px;
+  width: 250px;;
 }
 
 /*lesson*/
@@ -593,6 +602,16 @@ style: none;
 
 /*Manuals/FAQ*/
 
+.manualBox {
+  width: 58%;
+  margin-top: 10px;
+  margin-left: 35%;
+  background-color: #ffffff;
+  border: solid 4px #f7f7f7;
+  border-radius: 50px;
+  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
+}
+
 article.manuals{
   display: grid;
   margin-left: auto;
@@ -667,7 +686,7 @@ article.manuals button{
 
 .columnlak{
   display: grid;
-  margin-left: 32%;
+  margin-left: 35%;
   margin-top: 10px;
   width: 58%;
   background-color: #ffffff;
@@ -692,6 +711,8 @@ border: none;
 background-color: #ffffff;
 padding: 30px;
 border-radius: 50px;
+border: solid 4px #f7f7f7;
+box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
 }
 
 /*Gallery*/
