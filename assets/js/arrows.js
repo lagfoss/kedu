@@ -6,7 +6,7 @@
       } else {
         localStorage.clickcount = 1;
       }
-      document.getElementById("result").innerHTML = "synes godt om " + localStorage.clickcount + " time(s).";
+      document.getElementById("result").innerHTML =  localStorage.clickcount + " likes " ;
     } else {
       document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
     }
@@ -20,7 +20,7 @@
       } else {
         localStorage.clickcount = 1;
       }
-      document.getElementById("result").innerHTML = "Synes godt om " + localStorage.clickcount + " time(s).";
+      document.getElementById("result").innerHTML =   localStorage.clickcount + " likes ";
     } else {
       document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
     }
