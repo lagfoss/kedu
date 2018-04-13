@@ -245,8 +245,9 @@ button:hover, .loginbutton:hover {
   font-weight: 200;
   text-align: center;
   margin-top: 30px;
+  margin-right: 10%;
   padding: 20px;
-  width: 80%;
+  width: 79%;
   border-width: 2px;
   border-color: #ffffff;
   border-radius: 50px;
@@ -300,7 +301,7 @@ button:hover, .loginbutton:hover {
 /*Lesson Plan*/
 
 .column.middle img {
-  height: 35%;
+  height: 37%;
   width: 35%;
   float: left;
   margin-right: 0px;
@@ -430,12 +431,6 @@ button:hover {
   padding: 10px;
 }
 
-.column.sidelp {
-  width: 15%;
-  min-height: 550px;
-  margin-top: 30px;
-  margin-left: 120px;
-}
 
 .minimenu a{
   text-decoration: none;
@@ -465,7 +460,7 @@ button:hover {
 .menuu{
   width: 15%;
   min-height: 250px;
-  margin-top: 55px;
+  margin-top: 85px;
   margin-left: 130px;
   padding: 20px;
   float: left;
@@ -485,10 +480,16 @@ button:hover {
 
 .column.middle {
   width: 51%;
+  height: 170px;
   margin-left: 7.5%;
   margin-top: 30px;
   padding: 22.5px;
   padding-left: 100px;
+}
+
+.column.sidelp{
+  height: 750px;
+  margin-top: 2%;
 }
 
 .arrows{
