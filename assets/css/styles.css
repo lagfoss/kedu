@@ -533,7 +533,8 @@ button:hover {
 }
 
 .column.sidelp{
-  height: 750px;
+  display: grid;
+  min-height: 500px;
   margin-top: 2%;
 }
 
