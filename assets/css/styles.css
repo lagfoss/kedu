@@ -340,7 +340,15 @@ button:hover, .loginbutton:hover {
   border-radius: 50px;
 }
 
+#result{
+  margin-top: 85px;
+  margin-left: 18px;
+  position: absolute;
+  color: #044C7F;
+  font-weight:bold;
 
+
+}
 
 
 #lpthumbnail{
