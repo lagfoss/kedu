@@ -405,16 +405,16 @@ button:hover, .loginbutton:hover {
 .sitemanu {
     display: inline;
     width: 100%;
-    background-color: #f1f1f2;
     height: 40px;
   }
 
 .sitewaymanu-content button {
   font-size: 20px;
   cursor: pointer;
-  background-color: #f1f1f2;
-  color:#044C7F;
+  background-color: #044C7F;
+  color:#f1f1f2;
   border: none;
+  border-radius: 50px;
 }
 
 .droppi{
