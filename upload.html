@@ -24,7 +24,7 @@
   </div>
   <nav>
     <a href="dashb.html" >Dashboard</a>
-    <a href="lplans.html"class="active">Lesson Plans</a>
+    <a href="lplans.html">Lesson Plans</a>
     <a href="commu.html">Community</a>
     <a href="lak.html">Learn KUBO</a>
     <div class="dropdown">
@@ -51,16 +51,66 @@
 </header>
 
 <div class="comm">
-  <div class="menuu">
-    <h2>Menu</h2>
-    <div class="minimenu">
-      <a href="lak.html">Introduction to KUBO</a>
-      <a href="lbv.html">Learn by video</a>
-      <a href="manuals.html">Manuals</a>
-      <a href="faq.html" class="active">FAQ</a>
+  <div class="column sidelp">
+    <h2>Tags</h2>
+    <div class="tsearch">
+      <input type="search" placeholder="Search..">
     </div>
+    <ul class="dropcontainer">
+      <li class="tagDropmanu">
+        <button onclick="myLesson(this)" class="droppi"><span class="fas fa-angle-down">
+          </span> Language</button>
+        <div class="drop-content">
+          select language
+          <p><input type="checkbox">English</input><br>
+            <input type="checkbox">Danish</input><br>
+            <input type="checkbox">Swedish</input><br>
+            <input type="checkbox">Norwegian</input><br>
+            <input type="checkbox">Suomalainen</input>
+          </p>
+        </div>
+      </li>
+      <li class="tagDropmanu">
+        <button onclick="myLesson(this)" class="droppi"><span class="fas fa-angle-down">
+          </span> Subject</button>
+        <div class="drop-content">
+          select subjects
+          <p><input type="checkbox">Math</input><br>
+            <input type="checkbox">Language</input><br>
+            <input type="checkbox">Science</input><br>
+            <input type="checkbox">geography</input>
+          </p>
+        </div>
+      </li>
+      <li class="tagDropmanu">
+        <button onclick="myLesson(this)" class="droppi"><span class="fas fa-angle-down">
+          </span> Number of Lessons</button>
+        <div class="drop-content">
+          select number of lessons
+          <p><input type="checkbox">1 lesson</input><br>
+            <input type="checkbox">2 lessons</input><br>
+            <input type="checkbox">3 lessons</input><br>
+            <input type="checkbox">4 lessons</input><br>
+            <input type="checkbox">5 lessons</input>
+          </p>
+        </div>
+      </li>
+      <li class="tagDropmanu">
+        <button onclick="myLesson(this)" class="droppi"><span class="fas fa-angle-down">
+          </span> Time estimations</button>
+        <div class="drop-content">
+          select time estimations
+          <p><input type="checkbox">Under 1 hour</input><br>
+            <input type="checkbox">1-2 hours </input><br>
+            <input type="checkbox">3-4 hours</input><br>
+            <input type="checkbox">5-6 hours</input><br>
+            <input type="checkbox">over 6 hours</input>
+          </p>
+        </div>
+      </li>
   </div>
-</div>
+  </ul>
+  
       <div class="supperbox2">
           <h1>Please Register Here:</h1>
             <p>Join our online Educational Community. <br>
