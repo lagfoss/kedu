@@ -430,6 +430,7 @@ button:hover, .loginbutton:hover {
   display: none;
   width: 100%;
   overflow: auto;
+  position: absolute;
 }
 
 .drop-content button {
