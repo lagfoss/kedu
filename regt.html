@@ -21,41 +21,42 @@
   <body>
     <header>
     <div class="logo">
-      <a href="login.html"><img src="assets/images/kedulogo.png" alt="logo" height="36px"></a>
+      <a href="index.html"><img src="assets/images/kedulogo.png" alt="logo" height="36px"></a>
     </div>
     </header>
           <div class="supperbox">
-              <h1>Please Register Here:</h1>
+              <h1>Please Sign Up Here:</h1>
                 <p>Join our online Educational Community. <br>
                   and share lessonplans width other teachers across the globe.</p>
+            <form class="suForm" action="dashb.html" method="post">
             <div class="flexi">
                 <div style="margin-right: 7%;">
-                <label>First Name: </label> <br>
-                <input class="signup1" placeholder="John..." autofocus required></input>
+                <label>First Name:</label> <br>
+                <input class="signup1" id="fName" type="text" placeholder="Enter your First Name here..." value="" autofocus required/>
               </div>
               <div style="margin-left:7%;">
-                <label>Last Name: </label> <br>
-                <input class="signup1" placeholder="Doe" required></input>
+                <label>Last Name:</label> <br>
+                <input class="signup1" type="text" placeholder="Enter your Last Name here..." required/>
               </div>
             </div>
             <div class="flexi">
                   <div style="margin-right: 7%;">
-                <label>E-mail: </label> <br>
-                  <input class="signup1" id="mail" type="email" placeholder="Enter E-mail" required value=""/>
+                <label>E-mail:</label><br>
+                  <input class="signup1" id="mail" type="email" placeholder="Enter your E-mail here..." value="" required/>
               </div>
               <div style="margin-left:7%;">
-            <label>E-mail: </label> <br>
-              <input class="signup1" type="email" placeholder="John@gmail.com" required></input>
+            <label>Repeat E-mail:</label> <br>
+              <input class="signup1" type="email" placeholder="Repeat your E-mail here..." required></input>
           </div>
         </div>
             <div class="flexi">
           <div style="margin-right: 7%;">
-          <label>Password: </label> <br>
-            <input class="signup1" id="pw" type="password" placeholder="Enter Password" required value=""/>
+          <label>Password:</label> <br>
+            <input class="signup1" id="pw" type="password" placeholder="Enter your Password here..." value="" required/>
           </div>
           <div style="margin-left:7%;">
-          <label>repeat-password: </label> <br>
-            <input class="signup1" type="password" placeholder="John1234" required></input>
+          <label>Repeat Password:</label> <br>
+            <input class="signup1" type="password" placeholder="Repeat your Password here..." required/>
           </div>
         </div>
             <div class="flexi">
@@ -67,40 +68,38 @@
                    </div>
                 </div>
                 <div style="margin-left:7%;">
-                <label>Phone number: </label> <br>
-                  <input class="signup1" type="tel" placeholder="+00 12345678"></input>
+                <label>Phone Number:</label> <br>
+                  <input class="signup1" type="tel" placeholder="Enter your Phone Number here..."></input>
                 </div>
               </div>
             <div class="flexi">
               <div style="margin-right: 7%;">
-                <label>City: </label> <br>
-                  <input class="signup1" placeholder="New Town"></input>
+                <label>City:</label> <br>
+                  <input class="signup1" placeholder="Enter your City here..."></input>
                 </div>
                   <div style="margin-left:7%;">
-                <label>Birthday: </label> <br>
-                  <input class="signup1" type="date"></input>
+                <label>Birthday:</label> <br>
+                  <input class="signup1" type="date" placeholder="Enter your Birthday here..."></input>
                 </div>
               </div>
             <div class="flexi">
                 <div style="margin-right: 7%;">
-                <label>Country: </label> <br>
-                  <input class="signup1" placeholder="South Region"></input>
+                <label>Country:</label> <br>
+                  <input class="signup1" placeholder="Enter your Country here..."></input>
                 </div>
                 <div style="margin-left:7%;">
-                <label>School: </label> <br>
-                  <input class="signup1" placeholder="New South Prime"></input>
+                <label>School:</label> <br>
+                  <input class="signup1" placeholder="Enter your School here..."></input>
                 </div>
                 <div class="signup2" style="margin-right:14.5%;">
-                 <button id="add1">Back</button>
+                 <button id="add1" onclick="window.location.href='index.html'">Back</button>
                </div>
                <div class="signup2" style="margin-left:14.5%;">
-                <input id="add1" onclick="store" value="Sign Up" type="submit"/>
+                <input id="add1" onclick="store()" value="Sign Up" type="submit"/>
               </div>
               </div>
+              </form>
         </div>
-
-
-
 </body>
 
 </html>
