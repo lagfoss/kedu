@@ -1,10 +1,12 @@
 function store() {
-  //Email and password from signup
+  //First name, email and password from signup
+  var name = document.getElementById('fName')
   var email = document.getElementById('mail');
   var password = document.getElementById('pw');
   //storing input from signup
   localStorage.setItem('mail', email.value);
   localStorage.setItem('pw', password.value);
+  localStorage.setItem('fName' , name.value);
 }
 
 //check if stored data from signup is equal to entered data in the login
