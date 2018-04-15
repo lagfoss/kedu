@@ -314,11 +314,11 @@ button:hover, .loginbutton:hover {
 /*Lesson Plan*/
 
 .dropcontainer{
-  margin-top: -76px;
+  margin-top: 0;
 }
 
 .tsearch{
-  margin-top: -60px;
+  margin-top: 0px;
 }
 
 .tag {
