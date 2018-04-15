@@ -162,6 +162,7 @@ input[type=search] {
     border: 1px solid #ccc;
     box-sizing: border-box;
     border-radius: 5px;
+    height: 40px;
   }
 
 .navright button{
@@ -313,14 +314,6 @@ button:hover, .loginbutton:hover {
 
 /*Lesson Plan*/
 
-.dropcontainer{
-  margin-top: 0;
-}
-
-.tsearch{
-  margin-top: 0px;
-}
-
 .tag {
   background-color: #f1f1f2;
   border: none;
@@ -338,9 +331,8 @@ button:hover, .loginbutton:hover {
 
 .tagDropmanu {
   margin-left: 6px;
-  position: static;
-  display: block;
-  width: 164px;
+  display: grid;
+  width: 160px;
 }
 
 #result{
@@ -430,7 +422,6 @@ button:hover, .loginbutton:hover {
   display: none;
   width: 100%;
   overflow: auto;
-  position: absolute;
 }
 
 .drop-content button {
