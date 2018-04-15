@@ -162,6 +162,7 @@ input[type=search] {
     border: 1px solid #ccc;
     box-sizing: border-box;
     border-radius: 5px;
+    height: 40px;
   }
 
 .navright button{
@@ -313,14 +314,6 @@ button:hover, .loginbutton:hover {
 
 /*Lesson Plan*/
 
-.dropcontainer{
-  margin-top: -76px;
-}
-
-.tsearch{
-  margin-top: -60px;
-}
-
 .tag {
   background-color: #f1f1f2;
   border: none;
@@ -338,9 +331,8 @@ button:hover, .loginbutton:hover {
 
 .tagDropmanu {
   margin-left: 6px;
-  position: static;
-  display: block;
-  width: 164px;
+  display: grid;
+  width: 160px;
 }
 
 #result{
