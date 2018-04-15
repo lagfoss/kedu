@@ -1,7 +1,6 @@
 function store() {
   //Email and password from signup
   var email = document.getElementById('mail');
-  console.log(email);
   var password = document.getElementById('pw');
   //storing input from signup
   localStorage.setItem('mail', email.value);
@@ -13,7 +12,7 @@ function store() {
 function check() {
   //stored data from the signup
   var storedEmail = localStorage.getItem('mail');
-  var storedPassword = localStorage.getElementById('pw');
+  var storedPassword = localStorage.getItem('pw');
 
   //entered data from loginbutton
   var userEmail = document.getElementById('userEmail');
@@ -21,6 +20,7 @@ function check() {
 
   //check if stored data from signup is equal to data from loginbutton
   if(userEmail.value == storedEmail && userPassword.value == storedPassword) {
+        window.location = window.location.href.replace("login.html","dashb.html");
     alert('Welcome to KEDU');
   }else {
     alert('Incorrect email or password');
