@@ -5,7 +5,6 @@ function store() {
   //storing input from signup
   localStorage.setItem('mail', email.value);
   localStorage.setItem('pw', password.value);
-  window.location = window.location.href.replace("regt.html","dashb.html");
 }
 
 //check if stored data from signup is equal to entered data in the login
