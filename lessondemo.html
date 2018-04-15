@@ -6,6 +6,8 @@
   <title>KEDU - The Educational Community and Curriculum Platform</title>
   <meta description="KUBO Education, KEDU for short, is KUBO’s online curriculum platform" />
   <script defer src="assets/js/script.js"></script>
+  <script defer src="assets/js/login.js"></script>
+  <script defer src="assets/js/lesson.js"></script>
   <link href="assets/css/upload.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
@@ -17,13 +19,37 @@
   <meta name="theme-color" content="#ffffff">
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
 </head>
-
-<body>
-  <header>
-    <div class="logo">
-      <a href="dashb.html"><img src="assets/images/kedulogo.png" alt="logo" height="36px"></a>
+<header>
+  <div class="logo">
+    <a href="dashb.html"><img src="assets/images/kedulogo.png" alt="logo" height="36px"></a>
+  </div>
+  <nav>
+    <a href="dashb.html" >Dashboard</a>
+    <a href="lplans.html">Lesson Plans</a>
+    <a href="commu.html">Community</a>
+    <a href="lak.html">Learn KUBO</a>
+    <div class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn"><span class="fas fa-caret-down"></span></a>
+      <div class="dropdown-content">
+        <a href="lak.html">Introduction to KUBO</a>
+        <a href="lbv.html">Learn by video</a>
+        <a href="manuals.html">Manuals</a>
+        <a href="faq.html">FAQ</a>
+      </div>
     </div>
-  </header>
+  </nav>
+  <div class="navright">
+    <input type="search" placeholder="Search..">
+    <button type="search"><span class="fas fa-search"></span></button>
+    <div class="dropdown">
+      <button onclick="myFunprofil()" class="dropprofil"><span class="far fa-user"></span><span id="fnUser"></span></button>
+      <div id="myProfil" class="dropprofil-content" style="right:0;">
+        <a href="#">My Profil</a>
+        <a href="index.html">Log Out</a>
+      </div>
+    </div>
+  </div>
+</header>
 
   <div class="greybox">
     <h1>UPLOAD LESSONPLAN</h1>
