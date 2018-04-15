@@ -5,6 +5,7 @@ function store() {
   //storing input from signup
   localStorage.setItem('mail', email.value);
   localStorage.setItem('pw', password.value);
+  window.location = window.location.href.replace("regt.html","dashb.html");
 }
 
 //check if stored data from signup is equal to entered data in the login
@@ -20,7 +21,7 @@ function check() {
 
   //check if stored data from signup is equal to data from loginbutton
   if(userEmail.value == storedEmail && userPassword.value == storedPassword) {
-        window.location = window.location.href.replace("login.html","dashb.html");
+    window.location = window.location.href.replace("index.html","dashb.html");
     alert('Welcome to KEDU');
   }else {
     alert('Incorrect email or password');
