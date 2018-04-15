@@ -196,20 +196,30 @@ body{
   margin-top: 2%;
   margin-bottom: 5%;
 }
-
+.dash2{
+margin-top: 10%;
+width: 100%;
+display: -webkit-flex; /* Safari */
+-webkit-flex-wrap: wrap; /* Safari 6.1+ */
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
 .supperbox2{
+  flex: 1;
   margin: auto;
   font-weight: bolder;
   background-color: #f2f5f7;
   border-radius: 50px;
-  max-width: 60%;
-  margin-top: 70px;
-  margin-left: 30%;
+  margin-right: 10%;
   height: 100%;
+  width: 80%;
   box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
   font-size: 15px;
-  padding: 30px;
+  padding: 50px;
   padding-bottom: 20px;
+
+
 }
 .flexi2{
   width: 100%;
@@ -218,6 +228,8 @@ body{
   flex: wrap;
   justify-content: center;
 }
+
+
 
 .uploadstuff1{
   height: 35px;

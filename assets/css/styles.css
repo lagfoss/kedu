@@ -441,9 +441,12 @@ button:hover {
 }
 
 .com{
-  width: 98%;
+  flex: 1;
+  margin-top:0;
+  width: 97%;
   height: 70px;
   border-radius: 20px;
+
 }
 
 .button {
@@ -546,6 +549,11 @@ button:hover {
   display: grid;
   min-height: 500px;
   margin-top: 2%;
+}
+.column.sidelp2{
+  flex: 1;
+  display: grid;
+  min-height: 400px;
 }
 
 .arrows{
