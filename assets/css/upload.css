@@ -213,7 +213,7 @@ justify-content: center;
 
 .supperbox2{
   flex: 1;
-  font-weight: bolder;
+  font-weight: bold;
   background-color: #f2f5f7;
   border-radius: 50px;
   margin-right: 7%;
