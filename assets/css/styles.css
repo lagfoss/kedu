@@ -782,6 +782,10 @@ article.manuals button{
 
 /*Learn by video*/
 
+iframe {
+  border: none;
+}
+
 .columvideo{
 display: grid;
 margin-left: 35%;
