@@ -791,6 +791,7 @@ article.manuals button{
   width: 83%
   padding: 30px;
   color: #044c7f;
+  margin-left: 7%;
 }
 
 .columnlak{
@@ -804,7 +805,8 @@ article.manuals button{
   box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
 }
 
-.columnlak h3{text-align: center;
+.columnlak h3{
+  text-align: center;
   color: #044c7f;
 }
 
