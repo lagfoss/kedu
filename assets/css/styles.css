@@ -342,9 +342,8 @@ button:hover, .loginbutton:hover {
   font-weight:bold;
 }
 
-#lpthumbnail{
-  height:150px;
-  width: 250px;;
+.lpthumbnail{
+  height: 50%;
 }
 
 /*lesson*/
