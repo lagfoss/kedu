@@ -16,6 +16,7 @@
   <script defer src="assets/js/script.js"></script>
   <script defer src="assets/js/profil.js"></script>
   <script defer src="assets/js/lesson.js"></script>
+  <script defer src="assets/js/login.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
   <script defer src="assets/js/fontawesome-all.js"></script>
   <script defer src="assets/js/arrows.js"></script>
@@ -45,10 +46,10 @@
       <input type="search" placeholder="Search..">
       <button type="search"><span class="fas fa-search"></span></button>
       <div class="dropdown">
-        <button onclick="myFunprofil()" class="dropprofil"><span class="far fa-user"></span></button>
+        <button onclick="myFunprofil()" class="dropprofil"><span class="far fa-user"></span><span id="fnUser"></span></button>
         <div id="myProfil" class="dropprofil-content" style="right:0;">
           <a href="#">My Profil</a>
-          <a href="login.html">Log Out</a>
+          <a href="index.html">Log Out</a>
         </div>
       </div>
     </div>
@@ -60,16 +61,13 @@
       <button class="button">News</button>
       <button class="button button2">Most Viewed</button>
       <button class="button button3">Higest Rated</button>
-      <a href="upload.html"><span class="fas fa-upload button button4"<span> </a>
+      <button class="button button4" onclick="window.location.href='upload.html'"><span class="fas fa-upload"<span></button>
     </div>
 
-    <div class="comm">
       <div class="column sidelp">
         <h2>Tags</h2>
-        <div class="tsearch">
-          <input type="search" placeholder="Search..">
-        </div>
-        <ul class="dropcontainer">
+          <input type="search" placeholder="Search.."/>
+        <ul>
           <li class="tagDropmanu">
             <button onclick="myLesson(this)" class="droppi"><span class="fas fa-angle-down">
               </span> Language</button>
@@ -121,8 +119,8 @@
               </p>
             </div>
           </li>
-      </div>
       </ul>
+      </div>
       <div class="column middle">
         <div class="arrows">
           <div class="result">0</div>

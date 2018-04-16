@@ -17,6 +17,7 @@
   <script defer src="assets/js/gallery.js"></script>
   <script defer src="assets/js/profil.js"></script>
   <script defer src="assets/js/lesson.js"></script>
+  <script defer src="assets/js/login.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
   <script defer src="assets/js/fontawesome-all.js"></script>
 </head>
@@ -46,10 +47,10 @@
       <input type="search" placeholder="Search..">
       <button type="search"><span class="fas fa-search"></span></button>
       <div class="dropdown">
-        <button onclick="myFunprofil()" class="dropprofil"><span class="far fa-user"></span></button>
+        <button onclick="myFunprofil()" class="dropprofil"><span class="far fa-user"></span><span id="fnUser"></span></button>
         <div id="myProfil" class="dropprofil-content" style="right:0;">
           <a href="#">My Profil</a>
-          <a href="login.html">Log Out</a>
+          <a href="index.html">Log Out</a>
         </div>
       </div>
     </div>
@@ -147,40 +148,35 @@
       <div class="gcontainer">
 
         <div class="mySlides">
-          <div class="numbertext">1 / 6</div>
+          <div class="numbertext">1 / 3</div>
           <img src="assets/images/background.jpg" style="width:100%">
         </div>
         <div class="mySlides">
-          <div class="numbertext">2 / 6</div>
+          <div class="numbertext">2 / 3</div>
           <img src="assets/images/article1.jpg" style="width:100%">
         </div>
         <div class="mySlides">
-          <div class="numbertext">3 / 6</div>
+          <div class="numbertext">3 / 3</div>
           <img src="assets/images/rob.png" style="width:100%">
         </div>
-
-
         <a class="prev" onclick="plusSlides(-1)">❮</a>
         <a class="next" onclick="plusSlides(1)">❯</a>
         <div class="caption-container">
           <p id="caption"></p>
         </div>
-
         <div class="row">
           <div class="gcolumn">
             <img class="demo cursor" src="assets/images/background2.jpg"
-            style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+            style="width:100%" onclick="currentSlide(1)" alt="KUBO">
           </div>
           <div class="gcolumn">
             <img class="demo cursor" src="assets/images/article1.jpg"
-            style="width:100%" onclick="currentSlide(2)" alt="Trolltunga, Norway">
+            style="width:100%" onclick="currentSlide(2)" alt="KUBO and some kids">
           </div>
           <div class="gcolumn">
             <img class="demo cursor" src="assets/images/rob.png"
-            style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+            style="width:100%" onclick="currentSlide(3)" alt="KUBO and the TagTiles®">
           </div>
-
-
         </div>
       </div>
     </div>
