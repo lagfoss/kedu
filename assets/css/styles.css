@@ -304,7 +304,6 @@ button:hover, .loginbutton:hover {
 .arrowbtnup, .arrowbtndown{
   background-color: transparent;
   border: none;
-  style: none;
 }
 
 #like1{
@@ -601,10 +600,9 @@ margin-top: 5px;
 }
 
 .arrowbtn {
-outline: none;
-background-color: transparent;
-border:none;
-style: none;
+  outline: none;
+  background-color: transparent;
+  border:none;
   padding: 0;
 }
 
@@ -765,7 +763,7 @@ article.manuals button{
 .columnh2 h2{
   font-size: large;
   padding-left: 78px;
-  width: 83%
+  width: 83%;
   padding: 30px;
   color: #044c7f;
   margin-left: 7%;

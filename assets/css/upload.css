@@ -161,7 +161,6 @@ body{
   width: 100%;
   display: -webkit-flex; /* Safari */
   -webkit-flex-wrap: wrap; /* Safari 6.1+ */
-  flex: wrap;
   justify-content: center;
 }
 
@@ -217,7 +216,6 @@ justify-content: center;
   width: 100%;
   display: -webkit-flex; /* Safari */
   -webkit-flex-wrap: wrap; /* Safari 6.1+ */
-  flex: wrap;
   justify-content: center;
 }
 
