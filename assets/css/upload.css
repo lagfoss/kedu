@@ -38,9 +38,8 @@ body{
   margin: auto;
   background-color: #00a19b;
   border-radius: 50px;
-  max-width: 60%;
+  max-width: 50%;
   height: 100%;
-  box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
   border-radius: 50px;
   font-size: 20px;
   padding: 10px;
@@ -121,7 +120,6 @@ body{
   border-radius: 50px;
   box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
   border-radius: 15px;
-
 }
 
 #add1{
@@ -141,14 +139,14 @@ body{
 
 #add2{
   width: 100%;
-  padding: 10px;
+  padding: 15px;
   background-color: #f1f1f2;
   border-color: #00a19b;
   color:#00a19b;
   font-size: 25px;
   border: none;
   box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
-  border-radius: 50px;
+  border-radius: 15px;
 }
 
 /*regt.html*/
@@ -197,6 +195,7 @@ body{
   margin-top: 2%;
   margin-bottom: 5%;
 }
+
 .dash2{
 margin-top: 10%;
 width: 100%;
@@ -206,6 +205,7 @@ display: flex;
 flex-wrap: wrap;
 justify-content: center;
 }
+
 .supperbox2{
   flex: 1;
   font-weight: bolder;
@@ -230,7 +230,6 @@ justify-content: center;
   flex: wrap;
   justify-content: center;
 }
-
 
 
 .uploadstuff1{
