@@ -595,6 +595,7 @@ margin-top: 5px;
 
 .column.sidelp{
   display: grid;
+  text-align: center;
   min-height: 500px;
   margin-top: 2%;
 }
