@@ -68,6 +68,16 @@ nav a {
    text-decoration: none;
 }
 
+nav a.active{
+  color: #ef7b3a;
+  font-weight: bold;
+}
+
+nav a:hover, .dropdown:hover .dropbtn, .dropdown:hover .dropprofil,
+.dropdown-content a:hover, .dropprofil-content a:hover {
+  color: #00a19b;
+}
+
 .dropbtn {
   margin-left: 0;
   margin-right: 10px;
@@ -75,31 +85,6 @@ nav a {
   font-size: 20px;
   text-align: center;
   text-decoration: none;
-}
-
-nav a.active{
-  color: #ef7b3a;
-  font-weight: bold;
-}
-
-nav{
-  display: inline-flex;
-  justify-content: center;
-  overflow: hidden;
-  width: 60%;
-  margin-top: 20px;
-}
-
- nav a {
-    margin-right: 20px;
-    color: #044C7F;
-    font-size: 20px;
-    text-align: center;
-    text-decoration: none;
-}
-
-nav a:hover, .dropdown:hover .dropbtn, .dropdown:hover .dropprofil {
-  color: #00a19b;
 }
 
 .dropdown {
@@ -139,8 +124,6 @@ nav a:hover, .dropdown:hover .dropbtn, .dropdown:hover .dropprofil {
     padding: 10px;
     text-decoration: none;
 }
-
-.dropdown-content a:hover, .dropprofil-content a:hover {color: #00a19b;}
 
 .dropdown:hover .dropdown-content, .drophown:hover .dropprofil-content{
   display: block;
