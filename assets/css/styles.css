@@ -462,7 +462,7 @@ button:hover {
 .button {
   background-color: #044C7F;
   border: none;
-  color: #ffffff;
+    color: #ffffff;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
