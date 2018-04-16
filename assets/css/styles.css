@@ -304,6 +304,10 @@ button:hover, .loginbutton:hover {
   color: transparent;
 }
 
+.column.middle {
+  margin-bottom: 20px;
+}
+
 .column.middle img {
   height: 37%;
   width: 35%;
