@@ -67,26 +67,34 @@
         <button onclick="myLesson(this)" class="droppi"><span class="fas fa-angle-down">
         </span> Lesson 1</button>
         <div class="drop-content">
-          Number of Steps.
-          <p><input >Step 1</input><br>
-            <input >Step 2</input><br>
-            <input >Step 3</input><br>
-            <input >Step 4</input><br>
-            <input >Step 5</input>
+          <p><button onclick="">·Step 1</button><br>
+            <button onclick="">·Step 2</button><br>
+            <button onclick="">·Step 3</button><br>
+            <button onclick="">·Step 4</button><br>
+            <button onclick="">·Step 5</button><br>
           </p>
         </div>
       </li>
+
+      <li class="tagDropmanu">
+        <button onclick="myLesson(this)" class="droppi"><span class="fas fa-angle-down">
+        </span> Lesson 2</button>
+        <div class="drop-content">
+        </div>
+      </li>
+
       <li class="tagDropmanu">
         <button onclick="window.location.href='lessondemo.html'" class="droppi">+ add another lesson</button>
         <div class="drop-content">
         </div>
       </li>
+          <button id="add1" onclick="window.location.href='lplans.html'" type="button">Upload everything</button>
   </div>
   </ul>
 </div>
 
 <div class="supperbox2">
-  <h2> Lesson One </h2>
+  <h2> Lesson 2 </h2>
   <input class="form-control1" placeholder="Title..."></input>
   <button id="upload">Upload Video/Pictures</button><br>
   <div class="flexi2">
@@ -109,29 +117,9 @@
   <input class="signup1" type="password" required></input>
 </div>
 </div>
-<button id="addst">+Add Steps </button>
-
+<button id="addst" type="button" onclick="window.location.href='step1.html'">+Add Steps </button>
 </div>
   </div>
-
-
     </div>
-  </div>
-  <div class="box">
-    <h3>Step 1</h3>
-    <input class="form-control1" placeholder="Title..."></input><br>
-    <label>Description </label><br>
-    <textarea class="form-control2"></textarea><br>
-    <button id="upload">Upload picture </button><br>
-    <div class="smallgreybox">
-      <button id="addst">+Add another step </button>
-    </div>
-  </div>
-
-
-  <div class="downunder">
-    <button id="add2" type="button">+Add a lesson</button>
-      <button id="add1" onclick="window.location.href='lplans.html'" type="button">Upload everything</button>
-  </div>
 </body>
 </html>
