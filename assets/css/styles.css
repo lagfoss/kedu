@@ -319,6 +319,7 @@ button:hover, .loginbutton:hover {
 .arrowbtnup, .arrowbtndown{
   background-color: transparent;
   border: none;
+  style: none; 
 }
 
 
