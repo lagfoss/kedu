@@ -130,7 +130,7 @@ nav a:hover, .dropdown:hover .dropbtn, .dropdown:hover .dropprofil,
   color: #044C7F;
 }
 
-input[type=search] {
+input.search {
     padding: 10px 20px;
     display: inline-block;
     margin-right: 0;
@@ -445,6 +445,8 @@ button:hover, .loginbutton:hover {
   margin-left: 482px;
   color: #ffffff;
 }
+
+.allB a{color: #ffffff}
 
 button:hover {
   color: #00a19b;
