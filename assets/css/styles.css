@@ -347,8 +347,19 @@ button:hover, .loginbutton:hover {
   font-weight:bold;
 }
 
-.lpthumbnail{
-  height: 50%;
+#lpthumbnail{
+  height: 150px;
+  width: 250px;
+}
+
+#lpthumbnail2{
+  height: 150px;
+  width: 250px;
+}
+
+#lpthumbnail3{
+  height: 150px;
+  width: 250px;
 }
 
 /*lesson*/
