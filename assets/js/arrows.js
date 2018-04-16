@@ -1,27 +1,29 @@
-
-  function clickCounter() {
-    if (typeof(Storage) !== "undefined") {
-      if (localStorage.clickcount) {
-        localStorage.clickcount = Number(localStorage.clickcount) + 1;
-      } else {
-        localStorage.clickcount = 1;
-      }
-      document.getElementById("result").innerHTML =  localStorage.clickcount + " likes " ;
-    } else {
-      document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
-    }
+(function() {
+  const posts = document.getElementsByClassName('arrows');
+  for (var i = 0; i < posts.length; i += 1) {
+    var counter = localStorage.getItem("dataCounter" + i);
+    posts[i].setAttribute("data-counter", counter || 0);
+    posts[i].setAttribute("data-id", i);
+    posts[i].getElementsByClassName("result")[0].innerHTML = counter || 0;
+    posts[i].getElementsByClassName("arrowbtnup")[0].addEventListener("click", clickCounterIncrement);
+    posts[i].getElementsByClassName("arrowbtndown")[0].addEventListener("click", clickCounterDecrement);
   }
+})();
 
 
-  function clickCounter2() {
-    if (typeof(Storage) !== "undefined") {
-      if (localStorage.clickcount) {
-        localStorage.clickcount = Number(localStorage.clickcount) - 1;
-      } else {
-        localStorage.clickcount = 1;
-      }
-      document.getElementById("result").innerHTML =   localStorage.clickcount + " likes ";
-    } else {
-      document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
-    }
-  }
+function clickCounterIncrement(event) {
+  const element = event.currentTarget.parentElement;
+  const counter = parseInt(element.getAttribute("data-counter")) + 1;
+  element.setAttribute("data-counter", counter);
+  element.getElementsByClassName("result")[0].innerHTML = counter;
+  localStorage.setItem("dataCounter" + element.getAttribute("data-id"), counter);
+}
+
+
+function clickCounterDecrement(event) {
+  const element = event.currentTarget.parentElement;
+  const counter = parseInt(element.getAttribute("data-counter")) - 1;
+  element.setAttribute("data-counter", counter);
+  element.getElementsByClassName("result")[0].innerHTML = counter;
+  localStorage.setItem("dataCounter" + element.getAttribute("data-id"), counter);
+}

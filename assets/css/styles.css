@@ -317,6 +317,13 @@ button:hover, .loginbutton:hover {
 
 /*Lesson Plan*/
 
+.arrowbtnup, .arrowbtndown{
+  background-color: transparent;
+  border: none;
+}
+
+
+
 
 .dropcontainer{
   margin-top: -76px;
@@ -357,9 +364,9 @@ button:hover, .loginbutton:hover {
   width: 164px;
 }
 
-#result{
+.result{
   margin-top: 85px;
-  margin-left: 18px;
+  margin-left: 42px;
   position: absolute;
   color: #044C7F;
   font-weight:bold;
