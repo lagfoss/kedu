@@ -434,6 +434,12 @@ button:hover, .loginbutton:hover {
   text-align: center;
 }
 
+.aboutP {
+  margin-top: 5%;
+  text-align: center;
+  display: block;
+}
+
 .droppi{
   width: 145%;
   padding: 15px;
