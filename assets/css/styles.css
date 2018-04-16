@@ -359,9 +359,9 @@ button:hover, .loginbutton:hover {
   border-radius: 50px;
 }
 
-.contentInfo li {
-  list-style-type: none;
+.contentInfo p {
   margin-top: 10%;
+  text-align: left;
 }
 
 .gallerybox{
