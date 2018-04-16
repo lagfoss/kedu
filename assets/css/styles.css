@@ -320,7 +320,9 @@ button:hover, .loginbutton:hover {
 }
 
 
-
+#like1{
+  color: transparent;
+}
 
 .dropcontainer{
   margin-top: -76px;
