@@ -270,6 +270,7 @@ button:hover, .loginbutton:hover {
   background-color: #ffffff;
   box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
   border-width: 25px;
+  margin-bottom: 20px;
 }
 .latestplan img {
   width: 80%;
@@ -294,6 +295,7 @@ button:hover, .loginbutton:hover {
   background-color: #ffffff;
   box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
   border-width: 25px;
+  margin-bottom: 20px;
 }
 .dashchat{
   margin-top:4%;
@@ -435,6 +437,12 @@ button:hover, .loginbutton:hover {
 
 .sitewaymanu-content {
   text-align: center;
+}
+
+.aboutP {
+  margin-top: 5%;
+  text-align: center;
+  display: block;
 }
 
 .droppi{
@@ -704,6 +712,7 @@ style: none;
   border: solid 4px #f7f7f7;
   border-radius: 50px;
   box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
+  margin-bottom: 20px;
 }
 
 .faqBox {
@@ -714,6 +723,7 @@ style: none;
   border: solid 4px #f7f7f7;
   border-radius: 50px;
   box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
+  margin-bottom: 20px;
 }
 
 article.manuals{
@@ -786,6 +796,7 @@ article.manuals button{
   width: 83%
   padding: 30px;
   color: #044c7f;
+  margin-left: 7%;
 }
 
 .columnlak{
@@ -797,9 +808,11 @@ article.manuals button{
   border: solid 4px #f7f7f7;
   border-radius: 50px;
   box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
+  margin-bottom: 20px;
 }
 
-.columnlak h3{text-align: center;
+.columnlak h3{
+  text-align: center;
   color: #044c7f;
 }
 
@@ -817,6 +830,7 @@ padding: 30px;
 border-radius: 50px;
 border: solid 4px #f7f7f7;
 box-shadow: 0px 5px 50px 2px rgba(41,100,137,0.5);
+margin-bottom: 20px;
 }
 
 /*Gallery*/
