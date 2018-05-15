@@ -36,19 +36,6 @@ function buildList() {
     var pElm = document.createElement('p');
 
     pElm.innerHTML = note[i].text;
-    pElm.classList.add('pinkUnicorn');
-    pElm.setAttribute('data-index', i);
-
-    pElm.addEventListener('click', function(event) {
-      var index = event.target.getAttribute('data-index')
-      var note = getLocal();
-      console.log(note[index]);
-      note[index].text = "Changed";
-      var inputTemp = document.querySelector('#comment');
-      inputTemp.value = 'whatever';
-      setLocal(note);
-      buildList();
-    });
 
     liElm.appendChild(pElm);
     ulElm.appendChild(liElm);
@@ -66,6 +53,6 @@ submitBtn.addEventListener('click', function() {
 
   submitNote(text.value);
   buildList();
-  
+
   text.value = '';
 })
